@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "About DESIREFIT — Commercial EV Charging Specialists",
+    "description": "DESIREFIT is a specialist EV charging infrastructure company delivering precision-engineered solutions for commercial fleets, property developers, and businesses."
+  },
+  "hero": {
+    "eyebrow": "About DESIREFIT",
+    "headline": "Engineering the Infrastructure of Electric Mobility",
+    "subheading": "We are a specialist EV charging infrastructure company — founded on the belief that the transition to electric mobility demands precision engineering, not off-the-shelf solutions."
+  },
+  "mission": {
+    "eyebrow": "Our Mission",
+    "headline": "Power the Future. Built to Last.",
+    "body1": "DESIREFIT was founded to close the gap between the rapid growth of commercial EV adoption and the quality of charging infrastructure available to businesses and fleet operators.",
+    "body2": "We design, supply, and commission EV charging systems that are engineered for continuous commercial operation — with the reliability, scalability, and smart integration that serious operators demand.",
+    "body3": "Every installation is backed by our 99.9% uptime SLA, 24/7 technical support, and a commitment to long-term partnership with our clients."
+  },
+  "story": {
+    "eyebrow": "Our Story",
+    "headline": "It started with a problem no one was solving.",
+    "question": "Why is charging a commercial fleet harder than it should be?",
+    "body1": "DESIREFIT was born out of frustration. Our founders watched businesses invest in electric fleets only to be let down by chargers that tripped under load, software that couldn't talk to their energy systems, and suppliers who vanished after the sale.",
+    "body2": "We built DESIREFIT to be the company we wished existed — one that treats commercial EV charging as critical infrastructure, not a consumer product. Every charger we supply is specified for continuous duty. Every installation is engineered, not just plugged in. Every client gets a team that stays.",
+    "body3": "Today, DESIREFIT powers fleets, commercial properties, and parking facilities across India. We are not chasing the residential market or the next funding round. We are here to build the backbone of India's electric future — one reliable, precision-engineered installation at a time."
+  },
+  "values": [
+    {
+      "id": "v1",
+      "number": "01",
+      "title": "Precision Engineering",
+      "description": "We apply rigorous engineering standards to every installation — from site assessment and electrical design through to commissioning and ongoing maintenance."
+    },
+    {
+      "id": "v2",
+      "number": "02",
+      "title": "Long-Term Partnership",
+      "description": "We don't disappear after installation. Our team provides proactive monitoring, maintenance, and infrastructure planning as your fleet and business evolve."
+    },
+    {
+      "id": "v3",
+      "number": "03",
+      "title": "Open Standards",
+      "description": "We build on OCPP 2.0 and OCPI open standards — ensuring your infrastructure integrates with any platform and is never locked to a single vendor."
+    },
+    {
+      "id": "v4",
+      "number": "04",
+      "title": "Commercial Focus",
+      "description": "Everything we do is designed for commercial scale. We don't serve the residential market — our entire expertise is focused on business and fleet operators."
+    }
+  ],
+  "stats": [
+    {
+      "id": "as1",
+      "value": "500+",
+      "label": "Commercial installations"
+    },
+    {
+      "id": "as2",
+      "value": "99.9%",
+      "label": "Uptime across network"
+    },
+    {
+      "id": "as3",
+      "value": "12+",
+      "label": "Years in EV infrastructure"
+    },
+    {
+      "id": "as4",
+      "value": "24/7",
+      "label": "Technical support"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert1",
+      "title": "ISO 9001:2015",
+      "description": "Quality Management System certified"
+    },
+    {
+      "id": "cert2",
+      "title": "IEC 61851",
+      "description": "EV conductive charging system compliant"
+    },
+    {
+      "id": "cert3",
+      "title": "OCPP 2.0 Ready",
+      "description": "Open Charge Point Protocol certified"
+    },
+    {
+      "id": "cert4",
+      "title": "CE & UL Listed",
+      "description": "All hardware CE marked and UL listed"
+    },
+    {
+      "id": "cert5",
+      "title": "IP55 Rated",
+      "description": "Ingress protection for outdoor environments"
+    },
+    {
+      "id": "cert6",
+      "title": "IK10 Rated",
+      "description": "Impact protection for high-traffic locations"
+    }
+  ],
+  "cta": {
+    "headline": "Ready to Work With Us?",
+    "subheading": "Contact our team to discuss your EV charging requirements. We'll provide a free site assessment and infrastructure proposal.",
+    "ctaLabel": "Contact DESIREFIT",
+    "email": "info@evdesirefit.com"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "hero": {
+    "eyebrow": "EV Charging Solutions",
+    "headline": "Power the Future of",
+    "headlineAccent": "Electric Mobility",
+    "subheading": "DESIREFIT delivers intelligent EV charging infrastructure for commercial, fleet, and residential applications — built for reliability, scalability, and smart energy management.",
+    "ctaPrimary": "Explore Solutions",
+    "ctaSecondary": "View Products"
+  },
+  "stats": [
+    {
+      "id": "stat-1",
+      "value": "500+",
+      "label": "Installations"
+    },
+    {
+      "id": "stat-2",
+      "value": "99.8%",
+      "label": "Uptime"
+    },
+    {
+      "id": "stat-3",
+      "value": "50+",
+      "label": "Cities"
+    },
+    {
+      "id": "stat-4",
+      "value": "24/7",
+      "label": "Support"
+    }
+  ],
+  "products": {
+    "eyebrow": "Products & Solutions",
+    "headline": "Charging Solutions for Every Need",
+    "subheading": "From residential Level 2 chargers to high-power DC fast chargers and intelligent fleet management platforms — DESIREFIT has you covered.",
+    "items": [
+      {
+        "id": "prod-1",
+        "title": "Level 2 AC Charging",
+        "category": "Level 2 Solution",
+        "description": "Smart wall-mounted AC chargers for homes, offices, and commercial spaces. Up to 22 kW with OCPP 2.0 connectivity.",
+        "spec1Label": "Power Output",
+        "spec1Value": "Up to 22 kW",
+        "spec2Label": "Connector",
+        "spec2Value": "Type 2 / CCS"
+      },
+      {
+        "id": "prod-2",
+        "title": "Level 3 DC Fast Charging",
+        "category": "Level 3 Solution",
+        "description": "High-power DC fast chargers for public stations and fleet depots. Charge to 80% in under 30 minutes.",
+        "spec1Label": "Power Output",
+        "spec1Value": "Up to 150 kW",
+        "spec2Label": "Protocol",
+        "spec2Value": "OCPP 2.0"
+      },
+      {
+        "id": "prod-3",
+        "title": "Fleet Depot Solutions",
+        "category": "Fleet",
+        "description": "Scalable charging infrastructure designed for electric fleet operators with load balancing and scheduling.",
+        "spec1Label": "Ports",
+        "spec1Value": "Up to 100+",
+        "spec2Label": "Management",
+        "spec2Value": "Cloud-based"
+      },
+      {
+        "id": "prod-4",
+        "title": "Smart Management Platform",
+        "category": "Software",
+        "description": "Centralised dashboard for real-time monitoring, energy optimisation, billing, and remote diagnostics.",
+        "spec1Label": "Uptime",
+        "spec1Value": "99.8%",
+        "spec2Label": "Integration",
+        "spec2Value": "API / OCPP"
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why DESIREFIT",
+    "headline": "Built for Performance, Designed for Scale",
+    "subheading": "We combine hardware excellence with intelligent software to deliver EV charging solutions that grow with your business.",
+    "differentiators": [
+      {
+        "id": "diff-1",
+        "number": "01",
+        "title": "Certified Hardware",
+        "description": "IEC 61851, CE, and UL certified chargers built to international safety standards."
+      },
+      {
+        "id": "diff-2",
+        "number": "02",
+        "title": "Smart Energy Management",
+        "description": "Dynamic load balancing and demand response to reduce energy costs."
+      },
+      {
+        "id": "diff-3",
+        "number": "03",
+        "title": "Open Protocol",
+        "description": "OCPP 2.0 compliant — works with any backend management system."
+      },
+      {
+        "id": "diff-4",
+        "number": "04",
+        "title": "24/7 Support",
+        "description": "Round-the-clock remote monitoring and on-site technical support."
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Industries We Serve",
+    "headline": "Tailored for Every Sector",
+    "items": [
+      {
+        "id": "ind-1",
+        "title": "Fleet Operators",
+        "description": "End-to-end depot charging for electric fleets of all sizes.",
+        "stat": "100+ Fleets"
+      },
+      {
+        "id": "ind-2",
+        "title": "Commercial Real Estate",
+        "description": "Attract tenants and add value with smart EV charging amenities.",
+        "stat": "200+ Sites"
+      },
+      {
+        "id": "ind-3",
+        "title": "Parking Facilities",
+        "description": "Monetise parking with pay-per-use EV charging stations.",
+        "stat": "50+ Facilities"
+      },
+      {
+        "id": "ind-4",
+        "title": "Retail & Hospitality",
+        "description": "Keep customers longer with convenient on-site charging.",
+        "stat": "150+ Venues"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Get Started",
+    "headline": "Ready to Electrify Your Space?",
+    "subheading": "Talk to our experts and get a customised EV charging solution for your site.",
+    "ctaLabel": "Contact Us Today"
+  }
+}

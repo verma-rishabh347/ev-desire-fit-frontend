@@ -1,0 +1,72 @@
+{
+  "pages/home/dc-fast-charger": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2201341719"
+  },
+  "pages/home/fleet-depot": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1436482072"
+  },
+  "pages/home/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2205459463",
+    "requestedSize": {
+      "width": 1920,
+      "height": 1080,
+      "fit": "cover"
+    }
+  },
+  "pages/home/smart-management": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2203424629"
+  },
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-horizontal-c266fb05.jpg",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-horizontal-c266fb05.jpg",
+    "naturalOrientation": "horizontal"
+  },
+  "pages/home/commercial-ac-charger": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2263701729"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-favicon-d7cf84d6.png",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-favicon-d7cf84d6.png"
+  },
+  "logo/primary": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-primary-86ef9cc7.png",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-primary-86ef9cc7.png",
+    "naturalOrientation": "square"
+  },
+  "logo/footer-monogram": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/logo-footer-monogram-14cf0610.jpg",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-footer-monogram-14cf0610.jpg",
+    "naturalOrientation": "horizontal"
+  },
+  "logo/vertical": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-vertical-d1179737.png",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-vertical-d1179737.png",
+    "naturalOrientation": "vertical"
+  },
+  "pages/about/story": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2287882974"
+  },
+  "pages/about/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2288558536"
+  },
+  "pages/about/mission": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2214173787"
+  },
+  "pages/products/portable-charger": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1467073565"
+  }
+}

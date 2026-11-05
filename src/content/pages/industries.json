@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "title": "Industries — DESIREFIT",
+    "description": "DESIREFIT delivers EV charging solutions for fleet operators, commercial real estate, parking facilities, and retail & hospitality sectors."
+  },
+  "hero": {
+    "eyebrow": "Industries We Serve",
+    "headline": "Charging Solutions Built for Your Sector",
+    "subheading": "Every industry has unique charging demands. DESIREFIT engineers infrastructure that fits your operational model — not the other way around."
+  },
+  "sectors": [
+    {
+      "id": "sec-1",
+      "title": "Fleet Operators",
+      "eyebrow": "Logistics & Transport",
+      "description": "Logistics, delivery, and transport companies are electrifying at scale. DESIREFIT fleet depot solutions are engineered for overnight charging, intelligent scheduling, and per-vehicle energy tracking — so your fleet is always ready at shift start.",
+      "challenges": [
+        {
+          "id": "c1",
+          "text": "Managing charging across 10–500+ vehicles simultaneously"
+        },
+        {
+          "id": "c2",
+          "text": "Minimising energy costs with off-peak scheduling"
+        },
+        {
+          "id": "c3",
+          "text": "Integrating with existing fleet management systems"
+        },
+        {
+          "id": "c4",
+          "text": "Tracking per-vehicle energy consumption and costs"
+        }
+      ],
+      "solutions": [
+        {
+          "id": "s1",
+          "text": "Smart depot charging with intelligent load management"
+        },
+        {
+          "id": "s2",
+          "text": "OCPP 2.0 integration with fleet TMS and ERP platforms"
+        },
+        {
+          "id": "s3",
+          "text": "Scalable modular infrastructure — expand as your fleet grows"
+        },
+        {
+          "id": "s4",
+          "text": "24/7 remote monitoring and proactive maintenance"
+        }
+      ],
+      "stat1Value": "500+",
+      "stat1Label": "Fleet vehicles supported",
+      "stat2Value": "30%",
+      "stat2Label": "Average energy cost reduction"
+    },
+    {
+      "id": "sec-2",
+      "title": "Commercial Real Estate",
+      "eyebrow": "Property & Development",
+      "description": "EV charging is rapidly becoming a baseline tenant expectation and a regulatory requirement. DESIREFIT helps property developers and managers future-proof their assets with scalable, managed charging infrastructure that adds value and meets sustainability targets.",
+      "challenges": [
+        {
+          "id": "c1",
+          "text": "Meeting tenant EV charging expectations and mandates"
+        },
+        {
+          "id": "c2",
+          "text": "Managing electrical capacity across multi-tenant buildings"
+        },
+        {
+          "id": "c3",
+          "text": "Billing individual tenants for energy consumption"
+        },
+        {
+          "id": "c4",
+          "text": "Scaling infrastructure as EV adoption increases"
+        }
+      ],
+      "solutions": [
+        {
+          "id": "s1",
+          "text": "Multi-tenant billing and white-label management platform"
+        },
+        {
+          "id": "s2",
+          "text": "Dynamic load balancing to protect building electrical capacity"
+        },
+        {
+          "id": "s3",
+          "text": "Modular infrastructure designed for phased expansion"
+        },
+        {
+          "id": "s4",
+          "text": "Full compliance with EV-ready building codes and standards"
+        }
+      ],
+      "stat1Value": "40%",
+      "stat1Label": "Increase in tenant satisfaction",
+      "stat2Value": "15yr",
+      "stat2Label": "Infrastructure design lifespan"
+    },
+    {
+      "id": "sec-3",
+      "title": "Parking Facilities",
+      "eyebrow": "Parking & Mobility",
+      "description": "Public and private parking operators can generate new revenue streams while meeting growing EV driver demand. DESIREFIT delivers integrated payment, access control, and real-time availability for seamless driver experiences.",
+      "challenges": [
+        {
+          "id": "c1",
+          "text": "Generating revenue from underutilised parking bays"
+        },
+        {
+          "id": "c2",
+          "text": "Managing access and payment for public charging"
+        },
+        {
+          "id": "c3",
+          "text": "Providing real-time charger availability to drivers"
+        },
+        {
+          "id": "c4",
+          "text": "Maintaining high uptime across a distributed network"
+        }
+      ],
+      "solutions": [
+        {
+          "id": "s1",
+          "text": "Integrated payment terminals and contactless billing"
+        },
+        {
+          "id": "s2",
+          "text": "Real-time availability data via app and signage integration"
+        },
+        {
+          "id": "s3",
+          "text": "RFID and access control for reserved or managed bays"
+        },
+        {
+          "id": "s4",
+          "text": "Revenue reporting and operator dashboard"
+        }
+      ],
+      "stat1Value": "99.9%",
+      "stat1Label": "Uptime SLA",
+      "stat2Value": "3x",
+      "stat2Label": "Revenue per bay vs unmanaged"
+    },
+    {
+      "id": "sec-4",
+      "title": "Retail & Hospitality",
+      "eyebrow": "Retail & Hospitality",
+      "description": "EV charging increases customer dwell time and drives repeat visits. DESIREFIT helps retailers, hotels, and hospitality venues deploy branded charging experiences that attract EV-driving customers and support sustainability commitments.",
+      "challenges": [
+        {
+          "id": "c1",
+          "text": "Attracting and retaining EV-driving customers"
+        },
+        {
+          "id": "c2",
+          "text": "Offering a branded, premium charging experience"
+        },
+        {
+          "id": "c3",
+          "text": "Managing energy costs across multiple locations"
+        },
+        {
+          "id": "c4",
+          "text": "Reporting on sustainability and carbon reduction metrics"
+        }
+      ],
+      "solutions": [
+        {
+          "id": "s1",
+          "text": "Branded charging stations with custom UI and signage"
+        },
+        {
+          "id": "s2",
+          "text": "Multi-site management from a single platform"
+        },
+        {
+          "id": "s3",
+          "text": "Energy analytics and sustainability reporting"
+        },
+        {
+          "id": "s4",
+          "text": "Loyalty and rewards integration via open API"
+        }
+      ],
+      "stat1Value": "45min",
+      "stat1Label": "Average increase in dwell time",
+      "stat2Value": "62%",
+      "stat2Label": "Of EV drivers choose venues with charging"
+    }
+  ],
+  "cta": {
+    "headline": "Which Sector Are You In?",
+    "subheading": "Tell us about your site and requirements. We'll design a solution that fits your operation and budget.",
+    "ctaLabel": "Get in Touch",
+    "email": "info@evdesirefit.com"
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "Products — DESIREFIT",
+    "description": "Explore DESIREFIT's Wall Charger and Portable EV Charger — engineered for home, workplace, commercial, and on-the-go EV charging."
+  },
+  "hero": {
+    "eyebrow": "Products",
+    "headline": "Precision-Engineered Charging Infrastructure",
+    "subheading": "DESIREFIT chargers are built for reliable, continuous operation — from fixed wall units to portable on-the-go solutions."
+  },
+  "categories": [
+    {
+      "id": "cat-1",
+      "chargerType": "ac",
+      "slug": "wall-charger-3-3kw",
+      "label": "Wall Charger 3.3 kW",
+      "title": "Wall Charger — 3.3 kW",
+      "tagline": "Compact, efficient overnight charging for homes and light commercial use",
+      "description": "The DESIREFIT 3 kW Wall Charger is ideal for residential and light commercial installations. Its compact form factor, smart scheduling, and OCPP connectivity make it the perfect entry-level solution for EV owners and small businesses.",
+      "specs": [
+        { "id": "s1", "label": "Power Output", "value": "3.3 kW" },
+        { "id": "s2", "label": "Input / Output Voltage", "value": "230V AC (Single Phase)" },
+        { "id": "s3", "label": "Charging Current", "value": "Up to 16A" },
+        { "id": "s4", "label": "Frequency", "value": "50 / 60 Hz" },
+        { "id": "s5", "label": "Connector Type", "value": "Type 2 (IEC 62196-2)" },
+        { "id": "s6", "label": "Cable Length", "value": "5 metres (standard)" },
+        { "id": "s7", "label": "User Interface", "value": "LED status indicator (no display)" },
+        { "id": "s8", "label": "Enclosure", "value": "IP65 weatherproof / IK10" },
+        { "id": "s9", "label": "Cooling", "value": "Natural cooling, fanless design" },
+        { "id": "s10", "label": "Access", "value": "Plug & Charge, RFID, Bluetooth / Wi‑Fi app" },
+        { "id": "s11", "label": "Protocol", "value": "OCPP 1.6J" },
+        { "id": "s12", "label": "Warranty", "value": "Full lifetime warranty" }
+      ],
+      "features": [
+        {
+          "id": "f1",
+          "text": "Premium white metal front panel with Carbon Black or Alpine White chassis"
+        },
+        {
+          "id": "f2",
+          "text": "Screen-free LED interface for simple plug-and-charge operation"
+        },
+        {
+          "id": "f3",
+          "text": "Built-in protection against over-voltage, over-current, short-circuit and temperature"
+        },
+        {
+          "id": "f4",
+          "text": "Lifetime warranty covering manufacturing defects, housing and electronics"
+        }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "chargerType": "ac",
+      "slug": "wall-charger-7-4kw",
+      "label": "Wall Charger 7.4 kW",
+      "title": "Wall Charger — 7.4 kW",
+      "tagline": "High-speed three-phase charging for workplaces and commercial sites",
+      "description": "The EV Desire 7.4 kW AC charger delivers fast, reliable home and office charging in a premium, screen-free design with app connectivity and lifetime warranty coverage.",
+      "specs": [
+        {
+          "id": "s1",
+          "label": "Power Output",
+          "value": "7.4 kW"
+        },
+        {
+          "id": "s2",
+          "label": "Input / Output Voltage",
+          "value": "230V AC (Single Phase)"
+        },
+        {
+          "id": "s3",
+          "label": "Charging Current",
+          "value": "Up to 32A"
+        },
+        {
+          "id": "s4",
+          "label": "Frequency",
+          "value": "50 / 60 Hz"
+        },
+        {
+          "id": "s5",
+          "label": "Connector Type",
+          "value": "Type 2 (IEC 62196-2)"
+        },
+        {
+          "id": "s6",
+          "label": "Cable Length",
+          "value": "5 metres (standard)"
+        }
+      ],
+      "features": [
+        {
+          "id": "f1",
+          "text": "Premium white metal front panel with Carbon Black or Alpine White chassis"
+        },
+        {
+          "id": "f2",
+          "text": "Screen-free LED interface with plug-and-charge simplicity"
+        },
+        {
+          "id": "f3",
+          "text": "IP65 weatherproof and IK10 vandal-resistant metal body"
+        },
+        {
+          "id": "f4",
+          "text": "Full lifetime warranty on manufacturing defects and electronics"
+        }
+      ]
+    },
+    {
+      "id": "cat-ac-22",
+      "chargerType": "ac",
+      "slug": "wall-charger-22kw",
+      "label": "Wall Charger 22 kW",
+      "title": "Wall Charger — 22 kW",
+      "tagline": "Commercial-grade AC charging for high-demand locations",
+      "description": "The EV Desire 22 kW AC charger is built for commercial and workplace charging with a premium screen-free metal enclosure, smart access and silent fanless operation.",
+      "specs": [
+        { "id": "s1", "label": "Power Output", "value": "22 kW" },
+        { "id": "s2", "label": "Input / Output Voltage", "value": "415V AC (Three Phase)" },
+        { "id": "s3", "label": "Charging Current", "value": "Up to 32A" },
+        { "id": "s4", "label": "Frequency", "value": "50 / 60 Hz" },
+        { "id": "s5", "label": "Connector Type", "value": "Type 2 (IEC 62196-2)" },
+        { "id": "s6", "label": "Cable Length", "value": "5 metres (standard)" },
+        { "id": "s7", "label": "User Interface", "value": "LED status indicator (no display)" },
+        { "id": "s8", "label": "Enclosure", "value": "IP65 weatherproof / IK10" },
+        { "id": "s9", "label": "Cooling", "value": "Natural cooling, fanless design" },
+        { "id": "s10", "label": "Access", "value": "Plug & Charge, RFID, Bluetooth / Wi‑Fi app" },
+        { "id": "s11", "label": "Protocol", "value": "OCPP 1.6J" },
+        { "id": "s12", "label": "Warranty", "value": "Full lifetime warranty" }
+      ],
+      "features": [
+        { "id": "f1", "text": "Minimalist white metal fascia with premium weather-resistant chassis" },
+        { "id": "f2", "text": "Screen-free LED status interface for a foolproof experience" },
+        { "id": "f3", "text": "Silent fanless natural cooling with built-in electrical protection" },
+        { "id": "f4", "text": "Lifetime warranty covering housing and internal electronics" }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "chargerType": "dc",
+      "slug": "dc-fast-charger-30kw",
+      "label": "DC Fast Charger 30 kW",
+      "title": "DC Fast Charger — 30 kW",
+      "tagline": "Reliable rapid charging for destination and commercial locations",
+      "description": "The DESIREFIT 30 kW DC Fast Charger gives public and workplace sites a compact, dependable rapid-charging option with remote monitoring and straightforward operation.",
+      "specs": [
+        { "id": "s1", "label": "Output Power", "value": "30 kW (adjustable)" },
+        { "id": "s2", "label": "Output Voltage Range", "value": "200–1000 V DC" },
+        { "id": "s3", "label": "Output Current", "value": "Up to 100 A" },
+        { "id": "s4", "label": "Charging Connectors", "value": "CCS2 standard / CHAdeMO optional" },
+        { "id": "s5", "label": "Input Supply", "value": "3 Phase, 415 V AC ±15%, 50 Hz" },
+        { "id": "s6", "label": "Efficiency", "value": "≥ 95%" },
+        { "id": "s7", "label": "User Interface", "value": "7\" touch display, RFID, QR, app" },
+        { "id": "s8", "label": "Communication", "value": "OCPP 1.6J / 2.0.1 optional" },
+        { "id": "s9", "label": "Connectivity", "value": "4G / Ethernet / Wi‑Fi" },
+        { "id": "s10", "label": "Protection", "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection" },
+        { "id": "s11", "label": "Operating Temperature", "value": "−20°C to +50°C" },
+        { "id": "s12", "label": "Cooling", "value": "Forced air cooling" },
+        { "id": "s13", "label": "Mounting", "value": "Floor mounted, outdoor / indoor" },
+        { "id": "s14", "label": "Dimensions (W × D × H)", "value": "700 × 550 × 1700 mm approx." },
+        { "id": "s15", "label": "Weight", "value": "~260 kg approx." },
+        { "id": "s16", "label": "Standards", "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000" },
+        { "id": "s17", "label": "Certifications", "value": "CE optional / BIS India" }
+      ],
+      "features": [
+        { "id": "f1", "text": "High-speed charging with adjustable 30 kW DC output" },
+        { "id": "f2", "text": "Wide compatibility with CCS2 and optional CHAdeMO" },
+        { "id": "f3", "text": "Advanced electrical protection for safe, reliable operation" },
+        { "id": "f4", "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi" },
+        { "id": "f5", "text": "Rugged floor-mounted cabinet designed for Indian conditions" }
+      ],
+      "applications": ["Highway charging", "Fleet & depot charging", "Commercial locations", "Workplace charging"]
+    },
+    {
+      "id": "cat-4",
+      "chargerType": "dc",
+      "slug": "dc-fast-charger-60kw",
+      "label": "DC Fast Charger 60 kW",
+      "title": "DC Fast Charger — 60 kW",
+      "tagline": "High-performance charging for busy commercial sites",
+      "description": "The DESIREFIT 60 kW DC Fast Charger is designed for retail, fleet, and highway destinations that need quick turnarounds and dependable all-day performance.",
+      "specs": [
+        { "id": "s1", "label": "Output Power", "value": "60 kW (adjustable)" },
+        { "id": "s2", "label": "Output Voltage Range", "value": "200–1000 V DC" },
+        { "id": "s3", "label": "Output Current", "value": "Up to 150 A" },
+        { "id": "s4", "label": "Charging Connectors", "value": "CCS2 standard / CHAdeMO optional" },
+        { "id": "s5", "label": "Input Supply", "value": "3 Phase, 415 V AC ±15%, 50 Hz" },
+        { "id": "s6", "label": "Efficiency", "value": "≥ 95%" },
+        { "id": "s7", "label": "User Interface", "value": "7\" touch display, RFID, QR, app" },
+        { "id": "s8", "label": "Communication", "value": "OCPP 1.6J / 2.0.1 optional" },
+        { "id": "s9", "label": "Connectivity", "value": "4G / Ethernet / Wi‑Fi" },
+        { "id": "s10", "label": "Protection", "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection" },
+        { "id": "s11", "label": "Operating Temperature", "value": "−20°C to +50°C" },
+        { "id": "s12", "label": "Cooling", "value": "Forced air cooling" },
+        { "id": "s13", "label": "Mounting", "value": "Floor mounted, outdoor / indoor" },
+        { "id": "s14", "label": "Dimensions (W × D × H)", "value": "750 × 650 × 1800 mm approx." },
+        { "id": "s15", "label": "Standards", "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000" },
+        { "id": "s16", "label": "Certification", "value": "CE optional / BIS India" }
+      ],
+      "features": [
+        { "id": "f1", "text": "High-speed 60 kW DC output for quick turnaround" },
+        { "id": "f2", "text": "Wide compatibility with CCS2 and optional CHAdeMO" },
+        { "id": "f3", "text": "Advanced electrical protection for safe, reliable operation" },
+        { "id": "f4", "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi" },
+        { "id": "f5", "text": "Rugged and reliable floor-mounted cabinet for Indian conditions" }
+      ]
+    },
+    {
+      "id": "cat-5",
+      "chargerType": "dc",
+      "slug": "dc-fast-charger-120kw",
+      "label": "DC Fast Charger 120 kW",
+      "title": "DC Fast Charger — 120 kW",
+      "tagline": "Ultra-fast charging for fleets and highway corridors",
+      "description": "The DESIREFIT 120 kW DC Fast Charger delivers rapid charging for demanding fleet depots and public charging hubs, with dual-connector capability and scalable network control.",
+      "specs": [
+        { "id": "s1", "label": "Output Power", "value": "120 kW (adjustable)" },
+        { "id": "s2", "label": "Output Voltage Range", "value": "200–1000 V DC" },
+        { "id": "s3", "label": "Output Current", "value": "Up to 250 A" },
+        { "id": "s4", "label": "Charging Connectors", "value": "CCS2 standard / CHAdeMO optional" },
+        { "id": "s5", "label": "Input Supply", "value": "3 Phase, 415 V AC ±15%, 50 Hz" },
+        { "id": "s6", "label": "Efficiency", "value": "≥ 95%" },
+        { "id": "s7", "label": "User Interface", "value": "10\" touch display, RFID, QR, app" },
+        { "id": "s8", "label": "Communication", "value": "OCPP 1.6J / 2.0.1 optional" },
+        { "id": "s9", "label": "Connectivity", "value": "4G / Ethernet / Wi‑Fi" },
+        { "id": "s10", "label": "Protection", "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection" },
+        { "id": "s11", "label": "Operating Temperature", "value": "−20°C to +50°C" },
+        { "id": "s12", "label": "Cooling", "value": "Forced air cooling" },
+        { "id": "s13", "label": "Mounting", "value": "Floor mounted, outdoor / indoor" },
+        { "id": "s14", "label": "Dimensions (W × D × H)", "value": "900 × 750 × 2000 mm approx." },
+        { "id": "s15", "label": "Weight", "value": "~450 kg approx." },
+        { "id": "s16", "label": "Standards", "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000" },
+        { "id": "s17", "label": "Certification", "value": "CE optional / BIS India" }
+      ],
+      "features": [
+        { "id": "f1", "text": "High-speed 120 kW DC output for quick turnaround" },
+        { "id": "f2", "text": "Wide compatibility with CCS2 and optional CHAdeMO" },
+        { "id": "f3", "text": "Advanced electrical protection for safe, reliable operation" },
+        { "id": "f4", "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi" },
+        { "id": "f5", "text": "Rugged and reliable floor-mounted cabinet for Indian conditions" }
+      ],
+      "applications": ["Highway charging", "Fleet & depot charging", "Commercial locations", "Workplace charging"]
+    }
+  ],
+  "portable": {
+    "eyebrow": "New Product",
+    "badge": "Portable",
+    "title": "Portable EV Charger",
+    "tagline": "Charge anywhere — home, office, or on the road",
+    "description": "The DESIREFIT Portable EV Charger is your go-anywhere charging companion. Lightweight and compact, it plugs into any standard household socket and delivers reliable Level 1 charging wherever you are — no installation required.",
+    "highlights": [
+      {
+        "id": "h1",
+        "label": "Plug & Play",
+        "detail": "No installation needed — plugs into any standard 16A socket"
+      },
+      {
+        "id": "h2",
+        "label": "Lightweight",
+        "detail": "Under 2 kg — fits in your boot or travel bag with ease"
+      },
+      {
+        "id": "h3",
+        "label": "Universal Fit",
+        "detail": "Compatible with all Type 2 EVs and PHEVs"
+      },
+      {
+        "id": "h4",
+        "label": "Safety First",
+        "detail": "Built-in over-temperature, over-current, and earth fault protection"
+      }
+    ],
+    "specs": [
+      {
+        "id": "ps1",
+        "label": "Output Power",
+        "value": "2.3 kW"
+      },
+      {
+        "id": "ps2",
+        "label": "Connector Type",
+        "value": "Type 2"
+      },
+      {
+        "id": "ps3",
+        "label": "Input Socket",
+        "value": "Standard 16A / Schuko"
+      },
+      {
+        "id": "ps4",
+        "label": "Cable Length",
+        "value": "5 metres"
+      },
+      {
+        "id": "ps5",
+        "label": "Weight",
+        "value": "< 2 kg"
+      },
+      {
+        "id": "ps6",
+        "label": "Protection",
+        "value": "IP44 / Over-current"
+      },
+      {
+        "id": "ps7",
+        "label": "Certification",
+        "value": "CE / RoHS"
+      },
+      {
+        "id": "ps8",
+        "label": "Compatibility",
+        "value": "All Type 2 EVs & PHEVs"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Need a Custom Solution?",
+    "subheading": "Our engineering team will design a charging infrastructure tailored to your site, fleet size, and operational requirements.",
+    "ctaLabel": "Talk to an Expert",
+    "email": "info@evdesirefit.com"
+  }
+}

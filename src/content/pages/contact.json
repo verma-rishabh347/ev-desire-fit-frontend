@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Contact DESIREFIT — Get in Touch",
+    "description": "Contact DESIREFIT for commercial EV charging inquiries, site assessments, and fleet charging solutions. Email us at info@evdesirefit.com."
+  },
+  "hero": {
+    "eyebrow": "Get in Touch",
+    "headline": "Let's Build Your Charging Infrastructure",
+    "subheading": "Tell us about your project. Our team will respond within one business day with a tailored assessment and proposal."
+  },
+  "contactDetails": {
+    "email": "info@evdesirefit.com",
+    "phone": "+91 9999992951",
+    "availability": "Monday – Friday, 8am – 6pm",
+    "supportNote": "24/7 technical support available for existing installations"
+  },
+  "formLabels": {
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Your full name",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Your company name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your@company.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+91 00000 00000",
+    "sectorLabel": "Industry Sector",
+    "messageLabel": "Project Details",
+    "messagePlaceholder": "Tell us about your site, fleet size, and charging requirements...",
+    "submitLabel": "Send Inquiry"
+  },
+  "sectors": [
+    {
+      "id": "sector-1",
+      "value": "fleet",
+      "label": "Fleet Operator"
+    },
+    {
+      "id": "sector-2",
+      "value": "commercial-re",
+      "label": "Commercial Real Estate"
+    },
+    {
+      "id": "sector-3",
+      "value": "parking",
+      "label": "Parking Facility"
+    },
+    {
+      "id": "sector-4",
+      "value": "retail",
+      "label": "Retail & Hospitality"
+    },
+    {
+      "id": "sector-5",
+      "value": "other",
+      "label": "Other"
+    }
+  ],
+  "whyContact": [
+    {
+      "id": "wc1",
+      "number": "01",
+      "title": "Free Site Assessment",
+      "description": "We'll evaluate your site's electrical capacity, layout, and charging requirements at no cost."
+    },
+    {
+      "id": "wc2",
+      "number": "02",
+      "title": "Custom Proposal",
+      "description": "Receive a detailed infrastructure proposal with product recommendations, installation scope, and pricing."
+    },
+    {
+      "id": "wc3",
+      "number": "03",
+      "title": "Fast Response",
+      "description": "Our commercial team responds to all inquiries within one business day."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between AC and DC EV chargers?",
+      "a": "AC (Alternating Current) chargers are slower and typically used for overnight or workplace charging, converting power inside the vehicle. DC (Direct Current) fast chargers bypass the onboard converter and charge the battery directly, delivering significantly faster charging speeds — ideal for commercial fleets and public charging stations.",
+      "id": "5zM5OSLdHYbqcOP2fFPDh"
+    },
+    {
+      "q": "How long does it take to fully charge an electric vehicle?",
+      "a": "Charging time depends on the charger type and battery capacity. A standard AC charger (7–22 kW) can take 4–12 hours for a full charge, while a DC fast charger (50–350 kW) can charge most EVs to 80% in 20–60 minutes. DESIREFIT DC Fast Chargers are engineered for maximum throughput in commercial environments.",
+      "id": "uPppKFoiQBOkltb6VodC4"
+    },
+    {
+      "q": "Can DESIREFIT chargers be integrated with our existing fleet management software?",
+      "a": "Yes. All DESIREFIT charging solutions support OCPP 2.0, the open communication protocol that enables seamless integration with most fleet management platforms, energy management systems, and third-party software. Our Smart Management suite also provides a native dashboard for real-time monitoring and reporting.",
+      "id": "ryj7mI7m7alJlJp44fmUh"
+    },
+    {
+      "q": "What certifications do DESIREFIT EV chargers carry?",
+      "a": "DESIREFIT chargers are certified to international safety and quality standards including ISO 9001, IEC 61851, CE, and UL. Our units also carry IP55 weatherproofing and IK10 impact resistance ratings, making them suitable for outdoor commercial and fleet depot installations.",
+      "id": "kXkyOQ28pgiWZYXnuEQpg"
+    },
+    {
+      "q": "Do you offer installation and after-sales support?",
+      "a": "Absolutely. DESIREFIT provides end-to-end support — from site assessment and installation planning to commissioning, maintenance, and ongoing technical support. Our team works with commercial real estate operators, fleet managers, and parking facility owners to ensure a smooth deployment and long-term reliability.",
+      "id": "FFf1ijFDjobVngJkxqQxp"
+    }
+  ]
+}

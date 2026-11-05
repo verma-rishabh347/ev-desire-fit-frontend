@@ -1,0 +1,378 @@
+{
+  "pages/home/dc-fast-charger": {
+    "orientations": "vertical",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2201341719",
+    "searchQuery": "EV charging station white bright daylight",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1611550139",
+      "https://img1.wsimg.com/isteam/getty/2204274364",
+      "https://img1.wsimg.com/isteam/getty/2284642247",
+      "https://img1.wsimg.com/isteam/getty/1726296925"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-22T11:21:34.028Z",
+    "lastUpdated": "2026-11-03T21:12:43.143Z",
+    "gettyId": "2201341719",
+    "alternativeGettyIds": [
+      "1611550139",
+      "2204274364",
+      "2284642247",
+      "1726296925"
+    ]
+  },
+  "pages/home/fleet-depot": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1436482072",
+    "searchQuery": "white electric vehicle charging bright daylight clean parking lot",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2240966000",
+      "https://img1.wsimg.com/isteam/getty/2178695643",
+      "https://img1.wsimg.com/isteam/getty/2244006185",
+      "https://img1.wsimg.com/isteam/getty/1387159384"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-22T11:21:34.869Z",
+    "lastUpdated": "2026-11-03T21:12:28.400Z",
+    "gettyId": "1436482072",
+    "alternativeGettyIds": [
+      "2240966000",
+      "2178695643",
+      "2244006185",
+      "1387159384"
+    ]
+  },
+  "pages/home/hero": {
+    "requestedSize": {
+      "width": 1920,
+      "height": 1080,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2205459463",
+    "searchQuery": "commercial EV charging station electric vehicle fleet parking",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1957614454",
+      "https://img1.wsimg.com/isteam/getty/2273030479",
+      "https://img1.wsimg.com/isteam/getty/2212319264",
+      "https://img1.wsimg.com/isteam/getty/2212319368"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-22T11:21:35.720Z",
+    "lastUpdated": "2026-08-22T11:21:35.720Z",
+    "gettyId": "2205459463",
+    "alternativeGettyIds": [
+      "1957614454",
+      "2273030479",
+      "2212319264",
+      "2212319368"
+    ]
+  },
+  "pages/home/smart-management": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2203424629",
+    "searchQuery": "person using tablet smart energy app bright office white",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2214727233",
+      "https://img1.wsimg.com/isteam/getty/2269481935",
+      "https://img1.wsimg.com/isteam/getty/2281735609",
+      "https://img1.wsimg.com/isteam/getty/2237854625"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-22T11:21:37.341Z",
+    "lastUpdated": "2026-11-03T21:12:41.209Z",
+    "gettyId": "2203424629",
+    "alternativeGettyIds": [
+      "2214727233",
+      "2269481935",
+      "2281735609",
+      "2237854625"
+    ]
+  },
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-horizontal-c266fb05.jpg",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-horizontal-26e0c96f.jpg",
+      "/airo-assets/uploads/logo-horizontal-398e1723.jpg",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-transparent-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+    ],
+    "productMockupsMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-transparent-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-mug-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-card-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-tshirt-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-box-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+        }
+      ]
+    },
+    "productMockups": [
+      {
+        "type": "mug",
+        "label": "Mug",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-mug-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+      },
+      {
+        "type": "card",
+        "label": "Business Card",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-card-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+      },
+      {
+        "type": "tshirt",
+        "label": "T-Shirt",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-tshirt-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+      },
+      {
+        "type": "box",
+        "label": "Packaging",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/61d9b52c-01bb-455b-847d-89b0c67c7961/horizontal-mockup-box-b58b6448-eb62-4f45-a468-260bf993a882/logo-logo.png"
+      }
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-22T11:21:57.873Z",
+    "lastUpdated": "2026-11-03T20:51:49.565Z",
+    "surfaceMode": "light",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-horizontal-398e1723.jpg": "8bwsbc15h2_1787398005567_file_sNf15jJy0P.jpeg",
+      "/airo-assets/uploads/logo-horizontal-26e0c96f.jpg": "8bwsbc15h2_1793738984504_file_XOGnH1OcJY.jpg",
+      "/airo-assets/uploads/logo-horizontal-c266fb05.jpg": "8bwsbc15h2_1793739061443_file_TgLKkn6IU3.jpg"
+    },
+    "uploadContentHash": "68aa349156f799c036801b33cedecc6eb24bdf5437cf29276ed6b5feed670da5",
+    "naturalOrientation": "horizontal",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-horizontal-c266fb05.jpg"
+  },
+  "pages/home/commercial-ac-charger": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2263701729",
+    "searchQuery": "white wall mounted EV charger clean minimal bright background",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1431880063",
+      "https://img1.wsimg.com/isteam/getty/2263701918",
+      "https://img1.wsimg.com/isteam/getty/1431880073"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-22T11:21:59.143Z",
+    "lastUpdated": "2026-11-03T21:12:29.540Z",
+    "gettyId": "2263701729",
+    "alternativeGettyIds": [
+      "1431880063",
+      "2263701918",
+      "1431880073"
+    ]
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-favicon-d7cf84d6.png",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-favicon-16a213e3.png",
+      "/airo-assets/uploads/logo-favicon-f31527fb.png",
+      "/airo-assets/uploads/logo-favicon-08fb9b8b.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/036e448d-d1b8-4bb0-8919-75c74fe46859/session/1c71ff22-1fc9-49cc-a987-f3de25092cb9/favicon-transparent-ee9e923f-cec3-4648-a435-52324be9736a/logo-logo.png"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-22T11:22:14.856Z",
+    "lastUpdated": "2026-11-03T20:51:49.566Z",
+    "surfaceMode": "light",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-favicon-08fb9b8b.png": "8bwsbc15h2_1793738434536_file_g_lDWv9UbM.jpg",
+      "/airo-assets/uploads/logo-favicon-f31527fb.png": "8bwsbc15h2_1793738813977_file_AQCR1UxyHX.jpg",
+      "/airo-assets/uploads/logo-favicon-16a213e3.png": "8bwsbc15h2_1793738984504_file_XOGnH1OcJY.jpg",
+      "/airo-assets/uploads/logo-favicon-d7cf84d6.png": "8bwsbc15h2_1793739061443_file_TgLKkn6IU3.jpg"
+    },
+    "uploadContentHash": "68aa349156f799c036801b33cedecc6eb24bdf5437cf29276ed6b5feed670da5",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-favicon-d7cf84d6.png"
+  },
+  "logo/primary": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-primary-86ef9cc7.png",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-primary-cea82389.png",
+      "/airo-assets/uploads/logo-primary-170cfe0f.png",
+      "/airo-assets/uploads/logo-horizontal-398e1723.jpg"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-22T11:27:49.058Z",
+    "lastUpdated": "2026-11-03T20:51:49.566Z",
+    "naturalOrientation": "square",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-horizontal-398e1723.jpg": "8bwsbc15h2_1787398005567_file_sNf15jJy0P.jpeg",
+      "/airo-assets/uploads/logo-primary-170cfe0f.png": "8bwsbc15h2_1793738813977_file_AQCR1UxyHX.jpg",
+      "/airo-assets/uploads/logo-primary-cea82389.png": "8bwsbc15h2_1793738984504_file_XOGnH1OcJY.jpg",
+      "/airo-assets/uploads/logo-primary-86ef9cc7.png": "8bwsbc15h2_1793739061443_file_TgLKkn6IU3.jpg"
+    },
+    "surfaceMode": "light",
+    "uploadContentHash": "68aa349156f799c036801b33cedecc6eb24bdf5437cf29276ed6b5feed670da5",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-primary-86ef9cc7.png"
+  },
+  "logo/footer-monogram": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/logo-footer-monogram-14cf0610.jpg",
+    "searchQuery": "df logo white circle dark background",
+    "alternatives": [
+      "/airo-assets/uploads/logo-footer-monogram-0c5d8202.jpg"
+    ],
+    "userModified": true,
+    "createdAt": "2026-11-03T20:41:15.448Z",
+    "lastUpdated": "2026-11-03T20:47:34.941Z",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-footer-monogram-0c5d8202.jpg": "8bwsbc15h2_1793738434536_file_g_lDWv9UbM.jpg",
+      "/airo-assets/uploads/logo-footer-monogram-14cf0610.jpg": "8bwsbc15h2_1793738813977_file_AQCR1UxyHX.jpg"
+    },
+    "uploadContentHash": "80b93a481fc9bd221b8cfbb2ce8d4fb5ee72f294ac88f85aa939ee8cb98d61b9",
+    "naturalOrientation": "horizontal",
+    "surfaceMode": "light",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-footer-monogram-14cf0610.jpg",
+    "caption": "df logo white circle dark background"
+  },
+  "logo/vertical": {
+    "surfaceMode": "light",
+    "currentUrl": "/airo-assets/uploads/logo-vertical-d1179737.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-vertical-c0d2c98d.png",
+      "/airo-assets/uploads/logo-vertical-1c53660e.png",
+      "/airo-assets/uploads/logo-vertical-6c25eb37.png"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-vertical-6c25eb37.png": "8bwsbc15h2_1793738434536_file_g_lDWv9UbM.jpg",
+      "/airo-assets/uploads/logo-vertical-1c53660e.png": "8bwsbc15h2_1793738813977_file_AQCR1UxyHX.jpg",
+      "/airo-assets/uploads/logo-vertical-c0d2c98d.png": "8bwsbc15h2_1793738984504_file_XOGnH1OcJY.jpg",
+      "/airo-assets/uploads/logo-vertical-d1179737.png": "8bwsbc15h2_1793739061443_file_TgLKkn6IU3.jpg"
+    },
+    "uploadContentHash": "68aa349156f799c036801b33cedecc6eb24bdf5437cf29276ed6b5feed670da5",
+    "createdAt": "2026-11-03T20:41:15.449Z",
+    "lastUpdated": "2026-11-03T20:51:49.566Z",
+    "naturalOrientation": "vertical",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-vertical-d1179737.png"
+  },
+  "pages/about/story": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2287882974",
+    "searchQuery": "electric vehicle charging depot fleet bright clean modern facility",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2279923066",
+      "https://img1.wsimg.com/isteam/getty/2270850020",
+      "https://img1.wsimg.com/isteam/getty/2230080278",
+      "https://img1.wsimg.com/isteam/getty/2280885603"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-04T04:57:29.665Z",
+    "lastUpdated": "2026-11-04T04:57:29.665Z",
+    "gettyId": "2287882974",
+    "alternativeGettyIds": [
+      "2279923066",
+      "2270850020",
+      "2230080278",
+      "2280885603"
+    ]
+  },
+  "pages/about/hero": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2288558536",
+    "searchQuery": "EV charging station modern commercial building exterior bright daylight",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2156378493",
+      "https://img1.wsimg.com/isteam/getty/2197330182",
+      "https://img1.wsimg.com/isteam/getty/1605645485",
+      "https://img1.wsimg.com/isteam/getty/2202950839"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-04T04:57:30.165Z",
+    "lastUpdated": "2026-11-04T04:57:30.165Z",
+    "gettyId": "2288558536",
+    "alternativeGettyIds": [
+      "2156378493",
+      "2197330182",
+      "1605645485",
+      "2202950839"
+    ]
+  },
+  "pages/about/mission": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2214173787",
+    "searchQuery": "engineers team working EV charging infrastructure planning bright office",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1919245417",
+      "https://img1.wsimg.com/isteam/getty/2203646295",
+      "https://img1.wsimg.com/isteam/getty/1447712267",
+      "https://img1.wsimg.com/isteam/getty/1492633265"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-04T04:57:30.689Z",
+    "lastUpdated": "2026-11-04T04:57:30.689Z",
+    "gettyId": "2214173787",
+    "alternativeGettyIds": [
+      "1919245417",
+      "2203646295",
+      "1447712267",
+      "1492633265"
+    ]
+  },
+  "pages/products/portable-charger": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1467073565",
+    "searchQuery": "portable EV charger cable electric vehicle charging on the go white clean",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1204883497",
+      "https://img1.wsimg.com/isteam/getty/1203403450",
+      "https://img1.wsimg.com/isteam/getty/1474977109",
+      "https://img1.wsimg.com/isteam/getty/2171640465"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-04T04:59:27.773Z",
+    "lastUpdated": "2026-11-04T04:59:27.773Z",
+    "gettyId": "1467073565",
+    "alternativeGettyIds": [
+      "1204883497",
+      "1203403450",
+      "1474977109",
+      "2171640465"
+    ]
+  }
+}

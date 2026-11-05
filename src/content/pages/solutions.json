@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Solutions — DESIREFIT EV Charging Infrastructure",
+    "description": "DESIREFIT delivers end-to-end EV charging solutions — from site assessment and hardware supply to installation, software integration, and ongoing support."
+  },
+  "hero": {
+    "eyebrow": "Our Solutions",
+    "headline": "End-to-End EV Charging Infrastructure",
+    "subheading": "From initial site assessment through to commissioning and long-term support, DESIREFIT delivers complete charging infrastructure — engineered for commercial scale."
+  },
+  "solutions": [
+    {
+      "id": "sol-1",
+      "number": "01",
+      "title": "Site Assessment & Design",
+      "tagline": "Engineering-led planning for every installation",
+      "description": "Every DESIREFIT project begins with a thorough site assessment. Our engineers evaluate electrical capacity, load requirements, cable routing, and future scalability to design an infrastructure that works today and grows with your business.",
+      "deliverables": [
+        {
+          "id": "d1",
+          "text": "Electrical capacity and load analysis"
+        },
+        {
+          "id": "d2",
+          "text": "Charger placement and cable routing design"
+        },
+        {
+          "id": "d3",
+          "text": "Grid connection and DNO application support"
+        },
+        {
+          "id": "d4",
+          "text": "Scalability roadmap for future expansion"
+        }
+      ]
+    },
+    {
+      "id": "sol-2",
+      "number": "02",
+      "title": "Hardware Supply & Installation",
+      "tagline": "Commercial-grade hardware, professionally installed",
+      "description": "We supply and install our full range of commercial EV chargers — from 7.4 kW AC units to 350 kW DC fast chargers. Every installation is completed by certified engineers to IEC 61851 and local wiring standards.",
+      "deliverables": [
+        {
+          "id": "d1",
+          "text": "Full range of AC and DC charging hardware"
+        },
+        {
+          "id": "d2",
+          "text": "Certified installation by qualified engineers"
+        },
+        {
+          "id": "d3",
+          "text": "Civil works, groundworks, and cable management"
+        },
+        {
+          "id": "d4",
+          "text": "Commissioning, testing, and handover documentation"
+        }
+      ]
+    },
+    {
+      "id": "sol-3",
+      "number": "03",
+      "title": "Software & Network Integration",
+      "tagline": "OCPP 2.0 connectivity and smart management",
+      "description": "All DESIREFIT hardware connects to our Smart Management Platform via OCPP 2.0. We handle full network configuration, backend integration, and user access setup — so your charging network is live and managed from day one.",
+      "deliverables": [
+        {
+          "id": "d1",
+          "text": "OCPP 2.0 network configuration and testing"
+        },
+        {
+          "id": "d2",
+          "text": "Smart Management Platform onboarding"
+        },
+        {
+          "id": "d3",
+          "text": "RFID, payment, and access control setup"
+        },
+        {
+          "id": "d4",
+          "text": "Integration with fleet TMS, ERP, or billing systems"
+        }
+      ]
+    },
+    {
+      "id": "sol-4",
+      "number": "04",
+      "title": "Ongoing Support & Maintenance",
+      "tagline": "99.9% uptime backed by 24/7 monitoring",
+      "description": "Our support doesn't end at handover. DESIREFIT provides 24/7 remote monitoring, proactive fault detection, and on-site maintenance to keep your charging network running at peak performance.",
+      "deliverables": [
+        {
+          "id": "d1",
+          "text": "24/7 remote monitoring and fault alerting"
+        },
+        {
+          "id": "d2",
+          "text": "OTA firmware updates and remote diagnostics"
+        },
+        {
+          "id": "d3",
+          "text": "Scheduled preventive maintenance visits"
+        },
+        {
+          "id": "d4",
+          "text": "99.9% uptime SLA with response time guarantees"
+        }
+      ]
+    }
+  ],
+  "process": {
+    "eyebrow": "How It Works",
+    "headline": "From Inquiry to Live Network",
+    "steps": [
+      {
+        "id": "p1",
+        "number": "01",
+        "title": "Initial Inquiry",
+        "description": "Contact our team with your site details and requirements. We'll respond within one business day."
+      },
+      {
+        "id": "p2",
+        "number": "02",
+        "title": "Site Assessment",
+        "description": "Our engineers visit your site to assess electrical capacity, layout, and infrastructure needs."
+      },
+      {
+        "id": "p3",
+        "number": "03",
+        "title": "Proposal & Design",
+        "description": "We deliver a detailed proposal with hardware recommendations, installation scope, and pricing."
+      },
+      {
+        "id": "p4",
+        "number": "04",
+        "title": "Installation",
+        "description": "Certified engineers complete the full installation, civil works, and network configuration."
+      },
+      {
+        "id": "p5",
+        "number": "05",
+        "title": "Go Live & Support",
+        "description": "Your network goes live with full monitoring, reporting, and 24/7 support from day one."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to Get Started?",
+    "subheading": "Contact our team for a free site assessment and infrastructure proposal tailored to your requirements.",
+    "ctaLabel": "Request a Free Assessment",
+    "email": "info@evdesirefit.com",
+    "phone": "+91 9999992951"
+  }
+}

@@ -9,7 +9,7 @@ const productImages = {
   "wall-charger-22kw": "/images/22achero.png",
   "dc-fast-charger-30kw": "/images/hero30dc.png",
   "dc-fast-charger-60kw": "/images/hero60dc.png",
-  "dc-fast-charger-120kw": "/images/hero120dc.png",
+  "dc-fast-charger-120kw": "/images/hero120dc.png", 
   "portable-charger": "/images/portablehero.png",
 };
 const exploreImages = {

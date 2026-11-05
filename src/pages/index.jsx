@@ -103,18 +103,18 @@ function HomePage() {
           className="relative min-h-screen flex items-center overflow-hidden bg-background"
           aria-label="Hero"
         >
-          <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-background">
             <img
               src="/images/mainhero.png"
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               fetchPriority="high"
               loading="eager"
               width={1920}
               height={1080}
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-transparent pointer-events-none" />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-r from-background/65 via-background/30 to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/20 via-transparent to-transparent pointer-events-none" />
           </div>
           <div
             className="absolute left-0 top-0 bottom-0 w-1 bg-primary"

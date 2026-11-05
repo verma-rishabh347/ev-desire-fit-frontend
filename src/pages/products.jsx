@@ -40,10 +40,10 @@ function ProductsPage() {
   }
   const thumbSlots = chargerType === "ac" ? acGalleryImages : dcGalleryImages;
   const portableImageSlots = [
-    "/images/portablehero.png",
-    "/images/portable.png",
-    "/images/portable.png",
-    "/images/portable.png",
+    "/images/portablemain1.png",
+    "/images/portablemain2.png",
+    "/images/portablemain3.png",
+    "/images/portablemain4.png",
   ];
   const jsonLd = {
     "@context": "https://schema.org",

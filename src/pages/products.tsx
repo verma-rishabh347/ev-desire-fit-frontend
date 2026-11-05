@@ -16,6 +16,13 @@ const variantImages = [
   '/airo-assets/images/pages/home/hero',
 ];
 
+const acGalleryImages = [
+  '/images/mainac1.png',
+  '/images/mainac2.png',
+  '/images/mainac3.png',
+  '/images/mainac4.png',
+];
+
 export default function ProductsPage() {
   const [chargerType, setChargerType] = useState<'ac' | 'dc' | 'portable'>('ac');
   const [activeVariantId, setActiveVariantId] = useState(products.categories[0].id);
@@ -32,9 +39,14 @@ export default function ProductsPage() {
     setActiveThumb(0);
   }
 
-  // Thumbnails: cycle through available slots
-  const thumbSlots = variantImages.slice(0, 4);
-  const portableImageSlots = Array.from({ length: 4 }, () => '/airo-assets/images/pages/products/portable-charger');
+  // AC products share the supplied four-image gallery; DC keeps its existing gallery.
+  const thumbSlots = chargerType === 'ac' ? acGalleryImages : variantImages.slice(0, 4);
+  const portableImageSlots = [
+    '/images/portablehero.png',
+    '/images/portable.png',
+    '/images/portable.png',
+    '/images/portable.png',
+  ];
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -154,7 +166,7 @@ export default function ProductsPage() {
                       </div>
                     ))}
                   </div>
-                  <Link to="/products#portable" className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:gap-3 transition-all">
+                  <Link to="/products/portable-charger" className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:gap-3 transition-all">
                     View full specifications <ChevronRight size={16} />
                   </Link>
                   <Link to="/contact" className="mt-7 flex items-center justify-center gap-2 rounded-2xl bg-primary py-4 font-bold text-white hover:opacity-90">

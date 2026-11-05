@@ -6,15 +6,19 @@ import { products } from 'virtual:content';
 const siteUrl = 'https://evdesirefit.com';
 
 const productImages: Record<string, string> = {
-  'wall-charger-3-3kw': '/airo-assets/images/pages/home/commercial-ac-charger',
-  'wall-charger-7-4kw': '/airo-assets/images/pages/home/commercial-ac-charger',
-  'wall-charger-22kw': '/airo-assets/images/pages/home/commercial-ac-charger',
+  'wall-charger-3-3kw': '/images/3.3achero.png',
+  'wall-charger-7-4kw': '/images/7.5achero.png',
+  'wall-charger-22kw': '/images/22achero.png',
   'dc-fast-charger-30kw': '/images/hero30dc.png',
   'dc-fast-charger-60kw': '/images/hero60dc.png',
   'dc-fast-charger-120kw': '/images/hero120dc.png',
+  'portable-charger': '/images/portablehero.png',
 };
 
 const exploreImages: Record<string, string> = {
+  'wall-charger-3-3kw': '/images/3.3ac.png',
+  'wall-charger-7-4kw': '/images/7.5ac.png',
+  'wall-charger-22kw': '/images/22ac.png',
   'dc-fast-charger-30kw': '/images/30dc.png',
   'dc-fast-charger-60kw': '/images/60dc.png',
   'dc-fast-charger-120kw': '/images/120dc.png',
@@ -22,7 +26,22 @@ const exploreImages: Record<string, string> = {
 
 export default function ProductDetailsPage() {
   const { slug } = useParams();
-  const selected = products.categories.find((category) => category.slug === slug) ?? products.categories[0];
+  const portableProduct = {
+    id: 'portable-charger',
+    chargerType: 'portable',
+    slug: 'portable-charger',
+    label: products.portable.title,
+    title: products.portable.title,
+    tagline: products.portable.tagline,
+    description: products.portable.description,
+    specs: products.portable.specs,
+    features: products.portable.highlights.map((highlight) => ({
+      id: highlight.id,
+      text: `${highlight.label} — ${highlight.detail}`,
+    })),
+  };
+  const selected = products.categories.find((category) => category.slug === slug)
+    ?? (slug === 'portable-charger' ? portableProduct : products.categories[0]);
   const acProducts = products.categories.filter((category) => category.chargerType === 'ac');
   const dcProducts = products.categories.filter((category) => category.chargerType === 'dc');
   const applications = ('applications' in selected && Array.isArray(selected.applications))
@@ -45,14 +64,15 @@ export default function ProductDetailsPage() {
 
           <div className="grid gap-6 lg:grid-cols-[minmax(0,1.6fr)_minmax(220px,0.38fr)] items-start">
             <section className="lg:col-span-2 rounded-3xl bg-card border border-border/40 p-6 sm:p-9 shadow-sm">
-              <div className="mb-8 aspect-[16/8] overflow-hidden rounded-2xl border border-border/40 bg-background">
+              <div className="aspect-[16/8] overflow-hidden rounded-2xl border border-border/40 bg-background">
                 <img
                   src={productImages[selected.slug] ?? productImages['dc-fast-charger-30kw']}
                   alt={selected.title}
-                  className="h-full w-full object-cover"
+                  className={`h-full w-full object-cover ${selected.chargerType === 'ac' ? 'object-top' : 'object-center'}`}
                   loading="eager"
                 />
               </div>
+              <div className="mb-8" />
               <p className="text-xs font-bold tracking-[0.2em] uppercase text-primary mb-3">
                 {selected.chargerType.toUpperCase()} EV CHARGER
               </p>
@@ -123,9 +143,9 @@ export default function ProductDetailsPage() {
                       <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.18em] text-foreground/45">{group.label}</p>
                       <div className="flex gap-3 overflow-x-auto pb-2">
                         {group.items === null ? (
-                          <Link to="/products#portable" className="group w-[84px] min-w-[84px] text-foreground">
-                            <div className="aspect-square overflow-hidden rounded-2xl border-2 border-border/40 bg-card transition-all group-hover:-translate-y-1 group-hover:border-primary/50">
-                              <img src="/airo-assets/images/pages/products/portable-charger" alt="Portable EV Charger" className="h-full w-full object-cover" loading="lazy" />
+                          <Link to="/products/portable-charger" className={`group w-[84px] min-w-[84px] ${selected.slug === 'portable-charger' ? 'text-primary' : 'text-foreground'}`}>
+                            <div className={`aspect-square overflow-hidden rounded-2xl border-2 bg-card transition-all group-hover:-translate-y-1 ${selected.slug === 'portable-charger' ? 'border-primary shadow-md shadow-primary/15' : 'border-border/40 group-hover:border-primary/50'}`}>
+                              <img src="/images/portable.png" alt="Portable EV Charger" className="h-full w-full object-cover" loading="lazy" />
                             </div>
                             <p className="mt-2 text-center text-[10px] font-bold">PORTABLE</p>
                           </Link>

@@ -4,8 +4,8 @@ import { Menu, X, Zap } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 const navLinks = [
-  { label: 'Solutions', href: '/solutions' },
   { label: 'Products', href: '/products' },
+  { label: 'Solutions', href: '/solutions' },
   { label: 'Industries', href: '/industries' },
 ];
 

@@ -1,11 +1,11 @@
 # V8 App Template
 
-A modern, production-ready web application template built with Vite, React, and TypeScript. Designed for AI-assisted development with component introspection, layout systems, and excellent developer experience.
+A modern, production-ready web application built with Vite and React JavaScript. Designed for AI-assisted development with component introspection, layout systems, and excellent developer experience.
 
 ## 🚀 Features
 
 - **⚡ Lightning Fast**: Vite for instant hot module replacement and optimized builds
-- **🎯 Type Safe**: Full TypeScript coverage across frontend and backend
+- **🎯 Modern JavaScript**: ES2022 modules across frontend and backend
 - **🎨 Beautiful UI**: shadcn/ui components with Tailwind CSS
 - **🧠 AI-Friendly**: Component introspection for AI development tools
 - **📱 Responsive**: Mobile-first design with modern CSS
@@ -17,7 +17,7 @@ A modern, production-ready web application template built with Vite, React, and 
 ### Frontend
 
 - **React 19** - Modern React with hooks and concurrent features
-- **TypeScript 5** - Full type safety across the application
+- **JavaScript (ES2022)** - Modern modules across the application
 - **Vite 6** - Fast build tool and dev server with HMR
 - **Tailwind CSS 3** - Utility-first CSS framework
 - **shadcn/ui** - Beautiful, accessible component library
@@ -27,14 +27,14 @@ A modern, production-ready web application template built with Vite, React, and 
 ### Backend
 
 - **Express API** - Health check, SSR, and extensible server routes
-- **TypeScript** - Type-safe backend development
+- **JavaScript** - Express backend development
 
 ### Development Tools
 
 - **ESLint 9** - Code linting
 - **Prettier** - Code formatting
 - **Vitest** - Fast unit testing
-- **TypeScript ESLint** - TypeScript-specific linting
+- **ESLint** - JavaScript linting
 
 > **Requirement:** Node.js 22 or later.
 
@@ -45,38 +45,38 @@ v8-app-template/
 ├── src/
 │   ├── components/       # React components
 │   │   ├── ui/           # shadcn/ui base components (40+ components)
-│   │   └── Spinner.tsx
+│   │   └── Spinner.jsx
 │   ├── layouts/          # Layout systems
-│   │   ├── RootLayout.tsx    # Centralized layout wrapper
-│   │   ├── Website.tsx       # Structural container
-│   │   ├── Dashboard.tsx     # Dashboard layout
+│   │   ├── RootLayout.jsx    # Centralized layout wrapper
+│   │   ├── Website.jsx       # Structural container
+│   │   ├── Dashboard.jsx     # Dashboard layout
 │   │   ├── RootLayout.md     # RootLayout documentation
 │   │   ├── Website.md        # Website layout documentation
 │   │   └── parts/            # Layout components
-│   │       ├── Header.tsx
-│   │       └── Footer.tsx
+│   │       ├── Header.jsx
+│   │       └── Footer.jsx
 │   ├── pages/            # Page components (content only)
-│   │   ├── index.tsx     # Homepage
-│   │   └── _404.tsx      # 404 page
+│   │   ├── index.jsx     # Homepage
+│   │   └── _404.jsx      # 404 page
 │   ├── lib/              # Utilities and API
-│   │   ├── utils.ts      # Utility functions
-│   │   └── api-client.ts # API client
+│   │   ├── utils.js      # Utility functions
+│   │   └── api-client.js # API client
 │   ├── server/           # Express API routes and SSR entry point
-│   │   ├── api/health/GET.ts
-│   │   └── entry.ts
+│   │   ├── api/health/GET.js
+│   │   └── entry.js
 │   ├── styles/           # Global styles
 │   │   └── globals.css
 │   ├── test/             # Test setup
-│   │   └── setup.ts
-│   ├── App.tsx           # Root application component
-│   ├── main.tsx          # Application entry point
-│   ├── router.ts         # Route definitions
-│   └── routes.tsx        # Route components
+│   │   └── setup.js
+│   ├── App.jsx           # Root application component
+│   ├── main.jsx          # Application entry point
+│   ├── router.js         # Route definitions
+│   └── routes.jsx        # Route components
 ├── dev-tools/            # Development mode enhancements
 ├── source-mapper/        # AI introspection plugin
 ├── public/               # Static assets
 ├── Dockerfile.dev        # Local Docker development image
-└── vite.config.ts        # Vite, API, SSR, and plugin configuration
+└── vite.config.js        # Vite, API, SSR, and plugin configuration
 ```
 
 ## 📜 Available Scripts
@@ -90,7 +90,7 @@ v8-app-template/
 - `npm run audit` - Check dependencies for high-severity vulnerabilities
 - `npm run lint` - Run ESLint code linting
 - `npm run lint:fix` - Run ESLint and apply fixes where possible
-- `npm run type-check` - Run TypeScript type checking
+- `npm run check` - Run the project lint check
 - `npm run format` - Format source files with Prettier
 - `npm run clean` - Remove build output and Vite's dependency cache
 - `npm run reset` - Clean the project and reinstall dependencies
@@ -128,7 +128,7 @@ The custom source-mapper plugin adds metadata to components in development:
 
 ```html
 <div
-  data-source-file="/src/components/Button.tsx"
+  data-source-file="/src/components/Button.jsx"
   data-source-line="15"
   data-source-component="Button"
 >
@@ -149,7 +149,7 @@ The dev-tools package provides:
 
 - **Consistent naming**: PascalCase components, camelCase hooks
 - **Clear file structure**: Logical separation of concerns
-- **Type-first approach**: Comprehensive TypeScript types
+- **Type-first approach**: Comprehensive JavaScript modules
 - **Standard patterns**: CRUD operations, form handling, error boundaries
 
 ## 🗃️ API & Layouts
@@ -159,16 +159,16 @@ The dev-tools package provides:
 The template includes:
 
 - `GET /api/health` - Health check endpoint
-- Extensible API client setup in `src/lib/api-client.ts`
+- Extensible API client setup in `src/lib/api-client.js`
 
 ### Layout System
 
 **RootLayout Pattern** (recommended for multi-page sites):
 
-`App.tsx` already wraps every route in RootLayout, which renders a shared header and footer on every page. Customize them by editing `src/layouts/parts/Header.tsx` and `Footer.tsx` directly — there is no config prop. For reference, the routing shape is a pathless layout route:
+`App.jsx` already wraps every route in RootLayout, which renders a shared header and footer on every page. Customize them by editing `src/layouts/parts/Header.jsx` and `Footer.jsx` directly — there is no config prop. For reference, the routing shape is a pathless layout route:
 
 ```tsx
-// src/App.tsx (already wired)
+// src/App.jsx (already wired)
 const routeTree: RouteObject[] = [
   {
     element: (
@@ -190,7 +190,7 @@ export default function App() {
 Pages become simple content components:
 
 ```tsx
-// src/pages/home.tsx
+// src/pages/home.jsx
 export default function HomePage() {
   return <div>Your content here</div>;
 }
@@ -198,9 +198,9 @@ export default function HomePage() {
 
 **Available Layouts**:
 
-- **RootLayout** (`src/layouts/RootLayout.tsx`) - Centralized header/footer wrapper
-- **Website** (`src/layouts/Website.tsx`) - Structural container (used by RootLayout)
-- **Dashboard** (`src/layouts/Dashboard.tsx`) - Admin panels and dashboards
+- **RootLayout** (`src/layouts/RootLayout.jsx`) - Centralized header/footer wrapper
+- **Website** (`src/layouts/Website.jsx`) - Structural container (used by RootLayout)
+- **Dashboard** (`src/layouts/Dashboard.jsx`) - Admin panels and dashboards
 
 See `src/layouts/*.md` for detailed usage documentation.
 
@@ -255,7 +255,7 @@ VITE_SHOW_DEV_TOOLS=false
 **Dev Tools Plugin**: Enables development mode enhancements
 **Fullstory Integration**: Optional user analytics (configurable)
 
-Configure in `vite.config.ts`:
+Configure in `vite.config.js`:
 
 ```typescript
 import { defineConfig } from "vite";
@@ -290,7 +290,7 @@ export default defineConfig(({ mode }) => ({
 
 ### Layout Usage
 
-- Use RootLayout for multi-page sites (configure in `App.tsx`)
+- Use RootLayout for multi-page sites (configure in `App.jsx`)
 - Pages should only contain content, not layout concerns
 - Define header/footer once, applies to all pages
 - Follow layout documentation in `src/layouts/*.md`
@@ -317,7 +317,7 @@ Built with amazing open-source tools:
 - [React](https://react.dev/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
+- 
 - [Framer Motion](https://www.framer.com/motion/)
 - [Vitest](https://vitest.dev/)
 

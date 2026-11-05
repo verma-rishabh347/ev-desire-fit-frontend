@@ -19,15 +19,39 @@
       "description": "The DESIREFIT 3 kW Wall Charger is ideal for residential and light commercial installations. Its compact form factor, smart scheduling, and OCPP connectivity make it the perfect entry-level solution for EV owners and small businesses.",
       "specs": [
         { "id": "s1", "label": "Power Output", "value": "3.3 kW" },
-        { "id": "s2", "label": "Input / Output Voltage", "value": "230V AC (Single Phase)" },
+        {
+          "id": "s2",
+          "label": "Input / Output Voltage",
+          "value": "230V AC (Single Phase)"
+        },
         { "id": "s3", "label": "Charging Current", "value": "Up to 16A" },
         { "id": "s4", "label": "Frequency", "value": "50 / 60 Hz" },
-        { "id": "s5", "label": "Connector Type", "value": "Type 2 (IEC 62196-2)" },
+        {
+          "id": "s5",
+          "label": "Connector Type",
+          "value": "Type 2 (IEC 62196-2)"
+        },
         { "id": "s6", "label": "Cable Length", "value": "5 metres (standard)" },
-        { "id": "s7", "label": "User Interface", "value": "LED status indicator (no display)" },
-        { "id": "s8", "label": "Enclosure", "value": "IP65 weatherproof / IK10" },
-        { "id": "s9", "label": "Cooling", "value": "Natural cooling, fanless design" },
-        { "id": "s10", "label": "Access", "value": "Plug & Charge, RFID, Bluetooth / Wi‑Fi app" },
+        {
+          "id": "s7",
+          "label": "User Interface",
+          "value": "LED status indicator (no display)"
+        },
+        {
+          "id": "s8",
+          "label": "Enclosure",
+          "value": "IP65 weatherproof / IK10"
+        },
+        {
+          "id": "s9",
+          "label": "Cooling",
+          "value": "Natural cooling, fanless design"
+        },
+        {
+          "id": "s10",
+          "label": "Access",
+          "value": "Plug & Charge, RFID, Bluetooth / Wi‑Fi app"
+        },
         { "id": "s11", "label": "Protocol", "value": "OCPP 1.6J" },
         { "id": "s12", "label": "Warranty", "value": "Full lifetime warranty" }
       ],
@@ -119,23 +143,59 @@
       "description": "The EV Desire 22 kW AC charger is built for commercial and workplace charging with a premium screen-free metal enclosure, smart access and silent fanless operation.",
       "specs": [
         { "id": "s1", "label": "Power Output", "value": "22 kW" },
-        { "id": "s2", "label": "Input / Output Voltage", "value": "415V AC (Three Phase)" },
+        {
+          "id": "s2",
+          "label": "Input / Output Voltage",
+          "value": "415V AC (Three Phase)"
+        },
         { "id": "s3", "label": "Charging Current", "value": "Up to 32A" },
         { "id": "s4", "label": "Frequency", "value": "50 / 60 Hz" },
-        { "id": "s5", "label": "Connector Type", "value": "Type 2 (IEC 62196-2)" },
+        {
+          "id": "s5",
+          "label": "Connector Type",
+          "value": "Type 2 (IEC 62196-2)"
+        },
         { "id": "s6", "label": "Cable Length", "value": "5 metres (standard)" },
-        { "id": "s7", "label": "User Interface", "value": "LED status indicator (no display)" },
-        { "id": "s8", "label": "Enclosure", "value": "IP65 weatherproof / IK10" },
-        { "id": "s9", "label": "Cooling", "value": "Natural cooling, fanless design" },
-        { "id": "s10", "label": "Access", "value": "Plug & Charge, RFID, Bluetooth / Wi‑Fi app" },
+        {
+          "id": "s7",
+          "label": "User Interface",
+          "value": "LED status indicator (no display)"
+        },
+        {
+          "id": "s8",
+          "label": "Enclosure",
+          "value": "IP65 weatherproof / IK10"
+        },
+        {
+          "id": "s9",
+          "label": "Cooling",
+          "value": "Natural cooling, fanless design"
+        },
+        {
+          "id": "s10",
+          "label": "Access",
+          "value": "Plug & Charge, RFID, Bluetooth / Wi‑Fi app"
+        },
         { "id": "s11", "label": "Protocol", "value": "OCPP 1.6J" },
         { "id": "s12", "label": "Warranty", "value": "Full lifetime warranty" }
       ],
       "features": [
-        { "id": "f1", "text": "Minimalist white metal fascia with premium weather-resistant chassis" },
-        { "id": "f2", "text": "Screen-free LED status interface for a foolproof experience" },
-        { "id": "f3", "text": "Silent fanless natural cooling with built-in electrical protection" },
-        { "id": "f4", "text": "Lifetime warranty covering housing and internal electronics" }
+        {
+          "id": "f1",
+          "text": "Minimalist white metal fascia with premium weather-resistant chassis"
+        },
+        {
+          "id": "f2",
+          "text": "Screen-free LED status interface for a foolproof experience"
+        },
+        {
+          "id": "f3",
+          "text": "Silent fanless natural cooling with built-in electrical protection"
+        },
+        {
+          "id": "f4",
+          "text": "Lifetime warranty covering housing and internal electronics"
+        }
       ]
     },
     {
@@ -148,31 +208,99 @@
       "description": "The DESIREFIT 30 kW DC Fast Charger gives public and workplace sites a compact, dependable rapid-charging option with remote monitoring and straightforward operation.",
       "specs": [
         { "id": "s1", "label": "Output Power", "value": "30 kW (adjustable)" },
-        { "id": "s2", "label": "Output Voltage Range", "value": "200–1000 V DC" },
+        {
+          "id": "s2",
+          "label": "Output Voltage Range",
+          "value": "200–1000 V DC"
+        },
         { "id": "s3", "label": "Output Current", "value": "Up to 100 A" },
-        { "id": "s4", "label": "Charging Connectors", "value": "CCS2 standard / CHAdeMO optional" },
-        { "id": "s5", "label": "Input Supply", "value": "3 Phase, 415 V AC ±15%, 50 Hz" },
+        {
+          "id": "s4",
+          "label": "Charging Connectors",
+          "value": "CCS2 standard / CHAdeMO optional"
+        },
+        {
+          "id": "s5",
+          "label": "Input Supply",
+          "value": "3 Phase, 415 V AC ±15%, 50 Hz"
+        },
         { "id": "s6", "label": "Efficiency", "value": "≥ 95%" },
-        { "id": "s7", "label": "User Interface", "value": "7\" touch display, RFID, QR, app" },
-        { "id": "s8", "label": "Communication", "value": "OCPP 1.6J / 2.0.1 optional" },
-        { "id": "s9", "label": "Connectivity", "value": "4G / Ethernet / Wi‑Fi" },
-        { "id": "s10", "label": "Protection", "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection" },
-        { "id": "s11", "label": "Operating Temperature", "value": "−20°C to +50°C" },
+        {
+          "id": "s7",
+          "label": "User Interface",
+          "value": "7\" touch display, RFID, QR, app"
+        },
+        {
+          "id": "s8",
+          "label": "Communication",
+          "value": "OCPP 1.6J / 2.0.1 optional"
+        },
+        {
+          "id": "s9",
+          "label": "Connectivity",
+          "value": "4G / Ethernet / Wi‑Fi"
+        },
+        {
+          "id": "s10",
+          "label": "Protection",
+          "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection"
+        },
+        {
+          "id": "s11",
+          "label": "Operating Temperature",
+          "value": "−20°C to +50°C"
+        },
         { "id": "s12", "label": "Cooling", "value": "Forced air cooling" },
-        { "id": "s13", "label": "Mounting", "value": "Floor mounted, outdoor / indoor" },
-        { "id": "s14", "label": "Dimensions (W × D × H)", "value": "700 × 550 × 1700 mm approx." },
+        {
+          "id": "s13",
+          "label": "Mounting",
+          "value": "Floor mounted, outdoor / indoor"
+        },
+        {
+          "id": "s14",
+          "label": "Dimensions (W × D × H)",
+          "value": "700 × 550 × 1700 mm approx."
+        },
         { "id": "s15", "label": "Weight", "value": "~260 kg approx." },
-        { "id": "s16", "label": "Standards", "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000" },
-        { "id": "s17", "label": "Certifications", "value": "CE optional / BIS India" }
+        {
+          "id": "s16",
+          "label": "Standards",
+          "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000"
+        },
+        {
+          "id": "s17",
+          "label": "Certifications",
+          "value": "CE optional / BIS India"
+        }
       ],
       "features": [
-        { "id": "f1", "text": "High-speed charging with adjustable 30 kW DC output" },
-        { "id": "f2", "text": "Wide compatibility with CCS2 and optional CHAdeMO" },
-        { "id": "f3", "text": "Advanced electrical protection for safe, reliable operation" },
-        { "id": "f4", "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi" },
-        { "id": "f5", "text": "Rugged floor-mounted cabinet designed for Indian conditions" }
+        {
+          "id": "f1",
+          "text": "High-speed charging with adjustable 30 kW DC output"
+        },
+        {
+          "id": "f2",
+          "text": "Wide compatibility with CCS2 and optional CHAdeMO"
+        },
+        {
+          "id": "f3",
+          "text": "Advanced electrical protection for safe, reliable operation"
+        },
+        {
+          "id": "f4",
+          "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi"
+        },
+        {
+          "id": "f5",
+          "text": "Rugged floor-mounted cabinet designed for Indian conditions"
+        }
       ],
-      "applications": ["Highway charging", "Fleet & depot charging", "Commercial locations", "Workplace charging"]
+      "applications": [
+        "Highway charging",
+        "Fleet & depot charging",
+        "Commercial locations",
+        "Workplace charging"
+      ]
     },
     {
       "id": "cat-4",
@@ -184,28 +312,91 @@
       "description": "The DESIREFIT 60 kW DC Fast Charger is designed for retail, fleet, and highway destinations that need quick turnarounds and dependable all-day performance.",
       "specs": [
         { "id": "s1", "label": "Output Power", "value": "60 kW (adjustable)" },
-        { "id": "s2", "label": "Output Voltage Range", "value": "200–1000 V DC" },
+        {
+          "id": "s2",
+          "label": "Output Voltage Range",
+          "value": "200–1000 V DC"
+        },
         { "id": "s3", "label": "Output Current", "value": "Up to 150 A" },
-        { "id": "s4", "label": "Charging Connectors", "value": "CCS2 standard / CHAdeMO optional" },
-        { "id": "s5", "label": "Input Supply", "value": "3 Phase, 415 V AC ±15%, 50 Hz" },
+        {
+          "id": "s4",
+          "label": "Charging Connectors",
+          "value": "CCS2 standard / CHAdeMO optional"
+        },
+        {
+          "id": "s5",
+          "label": "Input Supply",
+          "value": "3 Phase, 415 V AC ±15%, 50 Hz"
+        },
         { "id": "s6", "label": "Efficiency", "value": "≥ 95%" },
-        { "id": "s7", "label": "User Interface", "value": "7\" touch display, RFID, QR, app" },
-        { "id": "s8", "label": "Communication", "value": "OCPP 1.6J / 2.0.1 optional" },
-        { "id": "s9", "label": "Connectivity", "value": "4G / Ethernet / Wi‑Fi" },
-        { "id": "s10", "label": "Protection", "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection" },
-        { "id": "s11", "label": "Operating Temperature", "value": "−20°C to +50°C" },
+        {
+          "id": "s7",
+          "label": "User Interface",
+          "value": "7\" touch display, RFID, QR, app"
+        },
+        {
+          "id": "s8",
+          "label": "Communication",
+          "value": "OCPP 1.6J / 2.0.1 optional"
+        },
+        {
+          "id": "s9",
+          "label": "Connectivity",
+          "value": "4G / Ethernet / Wi‑Fi"
+        },
+        {
+          "id": "s10",
+          "label": "Protection",
+          "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection"
+        },
+        {
+          "id": "s11",
+          "label": "Operating Temperature",
+          "value": "−20°C to +50°C"
+        },
         { "id": "s12", "label": "Cooling", "value": "Forced air cooling" },
-        { "id": "s13", "label": "Mounting", "value": "Floor mounted, outdoor / indoor" },
-        { "id": "s14", "label": "Dimensions (W × D × H)", "value": "750 × 650 × 1800 mm approx." },
-        { "id": "s15", "label": "Standards", "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000" },
-        { "id": "s16", "label": "Certification", "value": "CE optional / BIS India" }
+        {
+          "id": "s13",
+          "label": "Mounting",
+          "value": "Floor mounted, outdoor / indoor"
+        },
+        {
+          "id": "s14",
+          "label": "Dimensions (W × D × H)",
+          "value": "750 × 650 × 1800 mm approx."
+        },
+        {
+          "id": "s15",
+          "label": "Standards",
+          "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000"
+        },
+        {
+          "id": "s16",
+          "label": "Certification",
+          "value": "CE optional / BIS India"
+        }
       ],
       "features": [
-        { "id": "f1", "text": "High-speed 60 kW DC output for quick turnaround" },
-        { "id": "f2", "text": "Wide compatibility with CCS2 and optional CHAdeMO" },
-        { "id": "f3", "text": "Advanced electrical protection for safe, reliable operation" },
-        { "id": "f4", "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi" },
-        { "id": "f5", "text": "Rugged and reliable floor-mounted cabinet for Indian conditions" }
+        {
+          "id": "f1",
+          "text": "High-speed 60 kW DC output for quick turnaround"
+        },
+        {
+          "id": "f2",
+          "text": "Wide compatibility with CCS2 and optional CHAdeMO"
+        },
+        {
+          "id": "f3",
+          "text": "Advanced electrical protection for safe, reliable operation"
+        },
+        {
+          "id": "f4",
+          "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi"
+        },
+        {
+          "id": "f5",
+          "text": "Rugged and reliable floor-mounted cabinet for Indian conditions"
+        }
       ]
     },
     {
@@ -218,31 +409,99 @@
       "description": "The DESIREFIT 120 kW DC Fast Charger delivers rapid charging for demanding fleet depots and public charging hubs, with dual-connector capability and scalable network control.",
       "specs": [
         { "id": "s1", "label": "Output Power", "value": "120 kW (adjustable)" },
-        { "id": "s2", "label": "Output Voltage Range", "value": "200–1000 V DC" },
+        {
+          "id": "s2",
+          "label": "Output Voltage Range",
+          "value": "200–1000 V DC"
+        },
         { "id": "s3", "label": "Output Current", "value": "Up to 250 A" },
-        { "id": "s4", "label": "Charging Connectors", "value": "CCS2 standard / CHAdeMO optional" },
-        { "id": "s5", "label": "Input Supply", "value": "3 Phase, 415 V AC ±15%, 50 Hz" },
+        {
+          "id": "s4",
+          "label": "Charging Connectors",
+          "value": "CCS2 standard / CHAdeMO optional"
+        },
+        {
+          "id": "s5",
+          "label": "Input Supply",
+          "value": "3 Phase, 415 V AC ±15%, 50 Hz"
+        },
         { "id": "s6", "label": "Efficiency", "value": "≥ 95%" },
-        { "id": "s7", "label": "User Interface", "value": "10\" touch display, RFID, QR, app" },
-        { "id": "s8", "label": "Communication", "value": "OCPP 1.6J / 2.0.1 optional" },
-        { "id": "s9", "label": "Connectivity", "value": "4G / Ethernet / Wi‑Fi" },
-        { "id": "s10", "label": "Protection", "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection" },
-        { "id": "s11", "label": "Operating Temperature", "value": "−20°C to +50°C" },
+        {
+          "id": "s7",
+          "label": "User Interface",
+          "value": "10\" touch display, RFID, QR, app"
+        },
+        {
+          "id": "s8",
+          "label": "Communication",
+          "value": "OCPP 1.6J / 2.0.1 optional"
+        },
+        {
+          "id": "s9",
+          "label": "Connectivity",
+          "value": "4G / Ethernet / Wi‑Fi"
+        },
+        {
+          "id": "s10",
+          "label": "Protection",
+          "value": "OVP, UVP, OCP, SCP, OTP, RCD, surge protection"
+        },
+        {
+          "id": "s11",
+          "label": "Operating Temperature",
+          "value": "−20°C to +50°C"
+        },
         { "id": "s12", "label": "Cooling", "value": "Forced air cooling" },
-        { "id": "s13", "label": "Mounting", "value": "Floor mounted, outdoor / indoor" },
-        { "id": "s14", "label": "Dimensions (W × D × H)", "value": "900 × 750 × 2000 mm approx." },
+        {
+          "id": "s13",
+          "label": "Mounting",
+          "value": "Floor mounted, outdoor / indoor"
+        },
+        {
+          "id": "s14",
+          "label": "Dimensions (W × D × H)",
+          "value": "900 × 750 × 2000 mm approx."
+        },
         { "id": "s15", "label": "Weight", "value": "~450 kg approx." },
-        { "id": "s16", "label": "Standards", "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000" },
-        { "id": "s17", "label": "Certification", "value": "CE optional / BIS India" }
+        {
+          "id": "s16",
+          "label": "Standards",
+          "value": "IEC 61851-1, IEC 61851-23, IEC 62196-3, IS 17017, IEC 61000"
+        },
+        {
+          "id": "s17",
+          "label": "Certification",
+          "value": "CE optional / BIS India"
+        }
       ],
       "features": [
-        { "id": "f1", "text": "High-speed 120 kW DC output for quick turnaround" },
-        { "id": "f2", "text": "Wide compatibility with CCS2 and optional CHAdeMO" },
-        { "id": "f3", "text": "Advanced electrical protection for safe, reliable operation" },
-        { "id": "f4", "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi" },
-        { "id": "f5", "text": "Rugged and reliable floor-mounted cabinet for Indian conditions" }
+        {
+          "id": "f1",
+          "text": "High-speed 120 kW DC output for quick turnaround"
+        },
+        {
+          "id": "f2",
+          "text": "Wide compatibility with CCS2 and optional CHAdeMO"
+        },
+        {
+          "id": "f3",
+          "text": "Advanced electrical protection for safe, reliable operation"
+        },
+        {
+          "id": "f4",
+          "text": "Smart connectivity through OCPP 1.6J / 2.0.1, 4G, Ethernet and Wi‑Fi"
+        },
+        {
+          "id": "f5",
+          "text": "Rugged and reliable floor-mounted cabinet for Indian conditions"
+        }
       ],
-      "applications": ["Highway charging", "Fleet & depot charging", "Commercial locations", "Workplace charging"]
+      "applications": [
+        "Highway charging",
+        "Fleet & depot charging",
+        "Commercial locations",
+        "Workplace charging"
+      ]
     }
   ],
   "portable": {

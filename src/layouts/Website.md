@@ -10,7 +10,7 @@ The Website layout provides the structural container for website pages. For most
 
 ### Correct Implementation ✅
 
-**Step 1: RootLayout is already applied in `App.tsx`** — you don't edit it to set this up. For reference, the routing shape is a single pathless layout route whose `children` are your `routes`:
+**Step 1: RootLayout is already applied in `App.jsx`** — you don't edit it to set this up. For reference, the routing shape is a single pathless layout route whose `children` are your `routes`:
 
 ```tsx
 import RootLayout from "./layouts/RootLayout";
@@ -30,7 +30,7 @@ const routeTree: RouteObject[] = [
 **Step 2: Create simple page components**
 
 ```tsx
-// src/pages/index.tsx
+// src/pages/index.jsx
 export default function HomePage() {
   return (
     <div className="container mx-auto px-4 py-16">
@@ -40,7 +40,7 @@ export default function HomePage() {
   );
 }
 
-// src/pages/about.tsx
+// src/pages/about.jsx
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-16">
@@ -53,8 +53,8 @@ export default function AboutPage() {
 
 **Step 3: Customize header and footer by editing the component files**
 
-- **Header**: Edit `src/layouts/parts/Header.tsx`
-- **Footer**: Edit `src/layouts/parts/Footer.tsx`
+- **Header**: Edit `src/layouts/parts/Header.jsx`
+- **Footer**: Edit `src/layouts/parts/Footer.jsx`
 
 ### Benefits of RootLayout Pattern
 
@@ -97,7 +97,7 @@ The layout automatically handles mobile responsiveness:
 
 1. **Use RootLayout for multi-page apps**: Define header/footer once in RootLayout
 2. **Keep pages simple**: Let RootLayout handle layout concerns
-3. **Centralized customization**: Edit Header.tsx and Footer.tsx directly
+3. **Centralized customization**: Edit Header.jsx and Footer.jsx directly
 4. **Maintain consistency**: Same header/footer across all pages
 
 ## Anti-Patterns to Avoid

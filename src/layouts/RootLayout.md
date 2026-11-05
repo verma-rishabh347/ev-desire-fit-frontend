@@ -10,22 +10,22 @@ RootLayout is the recommended way to create consistent multi-page **websites** (
 - **For dashboards/admin panels**: Use the `Dashboard` component instead (includes sidebar navigation and top bar)
 - **For games/fullscreen apps**: Remove `<Header />` and `<Footer />` from RootLayout
 
-> **`App.tsx` is already wired.** The template ships `App.tsx` with RootLayout, a `<Suspense>` boundary, a dev-only error boundary, and the `<CookieBanner>` already in place. You normally do **not** edit `App.tsx`: add pages in `src/routes.tsx`, change chrome in `Header.tsx`/`Footer.tsx`, and (only to drop the header/footer) edit `RootLayout.tsx`. The `App.tsx` snippets below show the routing shape for reference — never paste them over the real file or you will delete the cookie banner and error boundaries.
+> **`App.jsx` is already wired.** The template ships `App.jsx` with RootLayout, a `<Suspense>` boundary, a dev-only error boundary, and the `<CookieBanner>` already in place. You normally do **not** edit `App.jsx`: add pages in `src/routes.jsx`, change chrome in `Header.jsx`/`Footer.jsx`, and (only to drop the header/footer) edit `RootLayout.jsx`. The `App.jsx` snippets below show the routing shape for reference — never paste them over the real file or you will delete the cookie banner and error boundaries.
 
 ## Why Use RootLayout?
 
 ### Problems It Solves
 
 1. **Consistency**: Header and footer appear on every page automatically
-2. **Maintainability**: Update navigation in Header.tsx, applies everywhere
+2. **Maintainability**: Update navigation in Header.jsx, applies everywhere
 3. **Simplicity**: Page components focus only on content
 4. **Standard Pattern**: Follows React Router and Next.js conventions
 
 ### RootLayout Pattern
 
 ```tsx
-// ✅ RootLayout is already applied in App.tsx (shown for reference — a pathless layout route)
-// src/App.tsx
+// ✅ RootLayout is already applied in App.jsx (shown for reference — a pathless layout route)
+// src/App.jsx
 const routeTree: RouteObject[] = [
   {
     element: (
@@ -37,12 +37,12 @@ const routeTree: RouteObject[] = [
   },
 ];
 
-// src/pages/home.tsx - Just content!
+// src/pages/home.jsx - Just content!
 export default function HomePage() {
   return <div>Home content</div>;
 }
 
-// src/pages/about.tsx - Just content!
+// src/pages/about.jsx - Just content!
 export default function AboutPage() {
   return <div>About content</div>;
 }
@@ -52,14 +52,14 @@ export default function AboutPage() {
 
 To customize the header or footer, directly edit the component files:
 
-- **Header**: Edit `src/layouts/parts/Header.tsx`
-- **Footer**: Edit `src/layouts/parts/Footer.tsx`
+- **Header**: Edit `src/layouts/parts/Header.jsx`
+- **Footer**: Edit `src/layouts/parts/Footer.jsx`
 
 ### Customizing Site Title and Default Metadata
 
-RootLayout renders a `<Helmet>` with the site-wide default `<title>` and `<meta name="description">`. To change the site title or default description, edit the `<Helmet>` block in `src/layouts/RootLayout.tsx`. Per-page `<Helmet>` blocks in route components override these defaults (last-mounted wins). Do not add SEO head tags (`<title>`, `<meta name="description">`, canonical, Open Graph, JSON-LD, etc.) to `index.html` — head management for those is owned by react-helmet at render time. Static shell tags that must be in the initial HTML (`<meta charset>`, `<meta name="viewport">`, `<link rel="icon">`) stay in `index.html`.
+RootLayout renders a `<Helmet>` with the site-wide default `<title>` and `<meta name="description">`. To change the site title or default description, edit the `<Helmet>` block in `src/layouts/RootLayout.jsx`. Per-page `<Helmet>` blocks in route components override these defaults (last-mounted wins). Do not add SEO head tags (`<title>`, `<meta name="description">`, canonical, Open Graph, JSON-LD, etc.) to `index.html` — head management for those is owned by react-helmet at render time. Static shell tags that must be in the initial HTML (`<meta charset>`, `<meta name="viewport">`, `<link rel="icon">`) stay in `index.html`.
 
-**Example - Updating navigation in Header.tsx:**
+**Example - Updating navigation in Header.jsx:**
 
 ```tsx
 const navItems = [
@@ -74,14 +74,14 @@ const navItems = [
 
 ### Step 1: RootLayout is already applied
 
-`src/App.tsx` already wraps every route in RootLayout — you don't edit `App.tsx` to set this up. It also mounts `<Suspense>`, a dev error boundary, and `<CookieBanner>`, so don't replace it. Skip to Step 2 to add your pages.
+`src/App.jsx` already wraps every route in RootLayout — you don't edit `App.jsx` to set this up. It also mounts `<Suspense>`, a dev error boundary, and `<CookieBanner>`, so don't replace it. Skip to Step 2 to add your pages.
 
 ### Step 2: Create Simple Pages
 
 Your page components now just render content:
 
 ```tsx
-// src/pages/home.tsx
+// src/pages/home.jsx
 export default function HomePage() {
   return (
     <div className="container mx-auto px-4 py-16">
@@ -91,7 +91,7 @@ export default function HomePage() {
   );
 }
 
-// src/pages/about.tsx
+// src/pages/about.jsx
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-16">
@@ -106,7 +106,7 @@ export default function AboutPage() {
 
 Edit the header and footer components directly:
 
-**Header (`src/layouts/parts/Header.tsx`):**
+**Header (`src/layouts/parts/Header.jsx`):**
 
 ```tsx
 const navItems = [
@@ -117,7 +117,7 @@ const navItems = [
 ];
 ```
 
-**Footer (`src/layouts/parts/Footer.tsx`):**
+**Footer (`src/layouts/parts/Footer.jsx`):**
 
 ```tsx
 const currentYear = new Date().getFullYear();
@@ -138,7 +138,7 @@ return (
 
 ### Step 4: Add Routes
 
-Update `src/routes.tsx` to include your pages:
+Update `src/routes.jsx` to include your pages:
 
 ```tsx
 import { RouteObject } from "react-router";
@@ -164,7 +164,7 @@ export const routes: RouteObject[] = [
 For dashboards and admin panels, use the dedicated `Dashboard` component instead of RootLayout:
 
 ```tsx
-// src/App.tsx
+// src/App.jsx
 import Dashboard from "./layouts/Dashboard";
 
 const dashboardConfig = {
@@ -198,7 +198,7 @@ const routeTree: RouteObject[] = [
 For games or single-page apps that need fullscreen layout:
 
 ```tsx
-// src/layouts/RootLayout.tsx
+// src/layouts/RootLayout.jsx
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <Website>
@@ -238,21 +238,21 @@ const routeTree: RouteObject[] = [
 
 ## Best Practices
 
-1. **Edit components directly**: Update Header.tsx and Footer.tsx instead of passing props
+1. **Edit components directly**: Update Header.jsx and Footer.jsx instead of passing props
 2. **Keep pages simple**: Pages should only contain content
 3. **Use semantic HTML**: Structure content with proper heading hierarchy
 4. **Mobile-first**: The layout is responsive by default
-5. **Update navigation**: When adding pages, update navItems in Header.tsx
+5. **Update navigation**: When adding pages, update navItems in Header.jsx
 
 ## Troubleshooting
 
 ### Navigation not updating
 
-Make sure you updated `navItems` in `Header.tsx` and that the `href` matches your route path.
+Make sure you updated `navItems` in `Header.jsx` and that the `href` matches your route path.
 
 ### Header/Footer not showing
 
-Verify that `<Header />` and `<Footer />` are included in RootLayout.tsx.
+Verify that `<Header />` and `<Footer />` are included in RootLayout.jsx.
 
 ### Styling issues
 

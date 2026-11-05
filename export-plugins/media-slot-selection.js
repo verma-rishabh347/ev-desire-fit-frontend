@@ -1,6 +1,6 @@
 // Media-slot URL selectors, shared by this export media plugin (which serves them) and the agent's
-// media-image tools (which must resolve them identically). Hand-authored .js + .d.ts, like
-// media-redirect-policy, so it ships INSIDE the export archive beside media-assets-plugin.ts — its
+// media-image tools (which must resolve them identically). Hand-authored .js + .d.js, like
+// media-redirect-policy, so it ships INSIDE the export archive beside media-assets-plugin.js — its
 // `./media-slot-selection.js` import must resolve within the exported project — and is importable
 // by the agent runtime, with no build step and no vite dependency.
 

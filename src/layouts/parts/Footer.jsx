@@ -301,7 +301,7 @@ function Footer() {
           </p>
           <div className="flex items-center gap-6">
             <Link
-              to="/contact"
+              to="/privacypolicy"
               className="text-xs transition-colors"
               style={{
                 color: "hsl(var(--footer-text-dim))",
@@ -316,7 +316,7 @@ function Footer() {
               Privacy Policy
             </Link>
             <Link
-              to="/contact"
+              to="/termsconditions"
               className="text-xs transition-colors"
               style={{
                 color: "hsl(var(--footer-text-dim))",

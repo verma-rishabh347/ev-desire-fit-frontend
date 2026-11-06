@@ -6,6 +6,8 @@ import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 import SolutionsPage from "./pages/solutions";
 import ResourcesPage from "./pages/resources";
+import TermsConditionsPage from "./pages/termsconditions";
+import PrivacyPolicyPage from "./pages/privacypolicy";
 import ProdNotFoundPage from "./pages/_404";
 const NotFoundPage = ProdNotFoundPage;
 const routes = [
@@ -40,6 +42,14 @@ const routes = [
   {
     path: "/resources",
     element: /* @__PURE__ */ <ResourcesPage />,
+  },
+  {
+    path: "/termsconditions",
+    element: /* @__PURE__ */ <TermsConditionsPage />,
+  },
+  {
+    path: "/privacypolicy",
+    element: /* @__PURE__ */ <PrivacyPolicyPage />,
   },
   {
     path: "*",

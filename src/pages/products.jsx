@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Helmet } from "@dr.pogodin/react-helmet";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import { motion } from "motion/react";
 import { Zap, ChevronRight, CheckCircle2 } from "lucide-react";
 import { products } from "virtual:content";
@@ -18,12 +18,32 @@ const dcGalleryImages = [
   "/images/maindc4.png",
 ];
 function ProductsPage() {
-  const [chargerType, setChargerType] = useState("ac");
+  const location = useLocation();
+  const requestedVariant = new URLSearchParams(location.search).get("variant");
+  const requestedCategory = products.categories.find(
+    (category) => category.slug === requestedVariant,
+  );
+  const [chargerType, setChargerType] = useState(
+    requestedVariant === "portable-charger"
+      ? "portable"
+      : requestedCategory?.chargerType ?? "ac",
+  );
   const [activeVariantId, setActiveVariantId] = useState(
-    products.categories[0].id,
+    requestedCategory?.id ?? products.categories[0].id,
   );
   const [activeThumb, setActiveThumb] = useState(0);
   const [portableThumb, setPortableThumb] = useState(0);
+  useEffect(() => {
+    if (requestedVariant === "portable-charger") {
+      setChargerType("portable");
+      return;
+    }
+    if (requestedCategory) {
+      setChargerType(requestedCategory.chargerType);
+      setActiveVariantId(requestedCategory.id);
+      setActiveThumb(0);
+    }
+  }, [requestedVariant, requestedCategory]);
   const activeVariant =
     products.categories.find((c) => c.id === activeVariantId) ??
     products.categories[0];

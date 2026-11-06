@@ -56,56 +56,7 @@ function AboutPage() {
       </Helmet>
       <main>
         <section
-          className="relative pt-[140px] pb-10 bg-background"
-          aria-label="About hero"
-        >
-          <div
-            className="absolute top-0 bottom-0 w-1 bg-primary"
-            style={{
-              left: "112px",
-              boxShadow: "0 0 24px 4px hsl(var(--primary) / 0.4)",
-            }}
-          />
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{
-              background:
-                "linear-gradient(90deg, hsl(var(--primary) / 0.10) 0%, transparent 70%)",
-              left: "112px",
-              right: 0,
-            }}
-          />
-          <div className="w-full pl-[132px] pr-28">
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={stagger}
-              className="max-w-2xl"
-            >
-              <motion.span
-                variants={fadeUp}
-                className="inline-flex items-center gap-2 text-primary text-xs font-semibold tracking-widest uppercase mb-4"
-              >
-                <Zap size={12} />
-                {about.hero.eyebrow}
-              </motion.span>
-              <motion.h1
-                variants={fadeUp}
-                className="text-5xl md:text-6xl font-bold text-foreground leading-tight mb-5"
-              >
-                {about.hero.headline}
-              </motion.h1>
-              <motion.p
-                variants={fadeUp}
-                className="text-foreground/60 text-lg leading-relaxed"
-              >
-                {about.hero.subheading}
-              </motion.p>
-            </motion.div>
-          </div>
-        </section>
-        <section
-          className="pl-28 pr-28 pb-12 bg-background"
+          className="pl-28 mt-40 pr-28 pb-12 bg-background"
           aria-label="About hero image"
         >
           <motion.div
@@ -125,7 +76,7 @@ function AboutPage() {
             className="relative w-full h-[420px] rounded-2xl overflow-hidden"
           >
             <img
-              src="/airo-assets/images/pages/about/hero"
+              src="/images/aboutushero.png"
               alt="DESIREFIT EV charging station at a modern commercial building"
               className="w-full h-full object-cover"
               loading="eager"

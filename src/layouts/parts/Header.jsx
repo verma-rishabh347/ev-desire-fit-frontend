@@ -16,9 +16,38 @@ const navLinks = [
     href: "/industries",
   },
 ];
+const productMenu = [
+  {
+    title: "AC Chargers",
+    description: "Wall-mounted charging for home, office and commercial use.",
+    image: "/images/7.5ac.png",
+    items: [
+      ["3.3 kW", "/products?variant=wall-charger-3-3kw"],
+      ["7.4 kW", "/products?variant=wall-charger-7-4kw"],
+      ["22 kW", "/products?variant=wall-charger-22kw"],
+    ],
+  },
+  {
+    title: "DC Chargers",
+    description: "High-power fast charging for fleets and public locations.",
+    image: "/images/60dc.png",
+    items: [
+      ["30 kW", "/products?variant=dc-fast-charger-30kw"],
+      ["60 kW", "/products?variant=dc-fast-charger-60kw"],
+      ["120 kW", "/products?variant=dc-fast-charger-120kw"],
+    ],
+  },
+  {
+    title: "Portable Charger",
+    description: "Flexible charging wherever your EV takes you.",
+    image: "/images/portable.png",
+    items: [["2.3 kW", "/products?variant=portable-charger"]],
+  },
+];
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
   const location = useLocation();
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -51,6 +80,36 @@ function Header() {
             >
               {navLinks.map((link) => {
                 const isActive = location.pathname === link.href;
+                if (link.label === "Products") {
+                  return (
+                    <div className="relative" onMouseEnter={() => setProductsOpen(true)} onMouseLeave={() => setProductsOpen(false)}>
+                      <Link to={link.href} className={`relative text-[15px] font-medium tracking-wide transition-colors duration-200 group ${isActive ? "text-primary" : "text-black hover:text-primary"}`}>
+                        Products
+                        <span className={`absolute -bottom-1 left-0 h-px bg-primary transition-all duration-300 ${isActive || productsOpen ? "w-full" : "w-0 group-hover:w-full"}`} />
+                      </Link>
+                      {productsOpen && (
+                        <div className="absolute left-1/2 top-full z-50 mt-0 w-[760px] -translate-x-1/2 rounded-2xl border border-border/60 bg-white p-5 shadow-2xl">
+                          <div className="mb-4 flex items-center justify-between border-b border-border/50 pb-4">
+                            <div><p className="text-xs font-bold uppercase tracking-[.16em] text-primary">EV charging solutions</p><h3 className="mt-1 text-xl font-bold text-foreground">Choose your charger</h3></div>
+                            <Link to="/products" onClick={() => setProductsOpen(false)} className="text-sm font-semibold text-primary hover:underline">View all products →</Link>
+                          </div>
+                          <div className="grid grid-cols-3 gap-4">
+                            {productMenu.map((group) => (
+                              <div key={group.title} className="rounded-xl border border-border/60 p-3 transition-colors hover:border-primary/50">
+                                <Link to={group.items[0][1]} onClick={() => setProductsOpen(false)} className="mb-3 flex h-24 items-center justify-center rounded-lg bg-muted/60"><img src={group.image} alt={group.title} className="h-full w-full object-contain" /></Link>
+                                <Link to={group.items[0][1]} onClick={() => setProductsOpen(false)} className="font-bold text-foreground hover:text-primary">{group.title}</Link>
+                                <p className="mt-1 min-h-10 text-xs leading-5 text-muted-foreground">{group.description}</p>
+                                <div className="mt-3 space-y-1 border-t border-border/50 pt-2">
+                                  {group.items.map(([power, href]) => <Link key={power} to={href} onClick={() => setProductsOpen(false)} className="flex items-center justify-between rounded px-2 py-1.5 text-sm font-semibold text-foreground transition-colors hover:bg-primary/10 hover:text-primary"><span>{power}</span><span>→</span></Link>)}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                }
                 return (
                   /* @__PURE__ */ <Link
                     to={link.href}

@@ -33,7 +33,6 @@ const termsconditions = () => {
         <article className="rounded-[22px] border border-[#dce8e1] bg-white p-6 shadow-[0_18px_44px_#133d280c] sm:p-12 lg:p-16">
           <div className="mb-12 border-l-4 border-[#0f8b5f] pl-5 text-[#43534b]"><p>These Terms and Conditions describe how you may purchase and use products and services from <strong>EVDesireFit</strong> (“we”, “us” or “our”), and how you may use our website, WhatsApp, phone, app and other channels.</p><p className="mt-4">They should be read with the policies listed in section 6. By ordering, booking a service, or using our website or software, you confirm that you accept these Terms.</p></div>
           {sections.map(([title, content], i) => <section id={`section-${i + 1}`} key={title} className={`scroll-mt-24 border-b border-[#dce8e1] pb-10 mb-10 last:mb-0 ${i === 14 ? 'rounded-2xl border-0 bg-[#eaf7f0] px-6 pt-6' : ''}`}><h2 className={`mb-4 flex items-baseline gap-3 text-xl font-bold tracking-tight ${green}`}><span className="text-xs tracking-widest text-[#0f8b5f]">{String(i + 1).padStart(2, '0')}</span>{title}</h2><p className="leading-7 text-[#17211d]">{content}</p></section>)}
-          <footer className="pt-3 text-center"><p className="mb-4 text-[#63736b]">Questions about these Terms? We’re here to help.</p><a href={`mailto:${email}`} className="inline-flex items-center gap-5 rounded-lg bg-[#0f8b5f] px-5 py-3 font-bold text-white hover:bg-[#075d42]">Write to us <span>→</span></a></footer>
         </article>
       </div>
     </main>

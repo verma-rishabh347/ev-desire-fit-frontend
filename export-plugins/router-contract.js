@@ -5,7 +5,8 @@ export function createAiroBrowserRouter(
   routes,
   options,
 ) {
-  const { notFoundRouteId: _notFoundRouteId, patchRoutesOnNavigation, ...routerOptions } = options;
+  const { patchRoutesOnNavigation, ...routerOptions } = options;
+  delete routerOptions.notFoundRouteId;
   if (patchRoutesOnNavigation !== undefined) {
     throw new Error('createAiroBrowserRouter does not support patchRoutesOnNavigation');
   }

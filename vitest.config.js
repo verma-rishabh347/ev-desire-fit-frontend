@@ -9,6 +9,11 @@ var stdin_default = defineConfig({
   plugins: [react()],
   test: {
     environment: "jsdom",
+    environmentOptions: {
+      jsdom: {
+        url: "http://localhost/",
+      },
+    },
     globals: true,
     setupFiles: "./src/test/setup.js",
     // Use forks pool to isolate memory per test file (prevents OOM)

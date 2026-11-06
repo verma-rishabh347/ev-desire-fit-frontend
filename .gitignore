@@ -88,3 +88,5 @@ pids
 
 # Site-template manifest: written by /prepare-template and carried by the template zip; not source
 .airo/template-manifest.json
+.vercel
+.env*

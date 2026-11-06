@@ -56,13 +56,13 @@
       },
       {
         "id": "prod-3",
-        "title": "Fleet Depot Solutions",
-        "category": "Fleet",
-        "description": "Scalable charging infrastructure designed for electric fleet operators with load balancing and scheduling.",
-        "spec1Label": "Ports",
-        "spec1Value": "Up to 100+",
-        "spec2Label": "Management",
-        "spec2Value": "Cloud-based"
+        "title": "Portable Charger",
+        "category": "Portable Charging",
+        "description": "A lightweight plug-and-play charger for convenient charging at home or on the go.",
+        "spec1Label": "Power",
+        "spec1Value": "2.3 kW",
+        "spec2Label": "Setup",
+        "spec2Value": "Plug & Play"
       },
       {
         "id": "prod-4",

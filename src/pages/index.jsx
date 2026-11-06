@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { Helmet } from "@dr.pogodin/react-helmet";
 import { motion } from "motion/react";
 import { ArrowRight, Zap, ChevronRight } from "lucide-react";
@@ -26,10 +26,10 @@ const stagger = {
   },
 };
 const productImageSlots = [
-  "/airo-assets/images/pages/home/commercial-ac-charger",
-  "/airo-assets/images/pages/home/dc-fast-charger",
-  "/airo-assets/images/pages/home/fleet-depot",
-  "/airo-assets/images/pages/home/smart-management",
+  "/images/mainac1.png",
+  "/images/maindc1.png",
+  "/images/portablehero.png",
+  "/images/portablehero.png",
 ];
 const siteUrl = "https://desirefit.com";
 const jsonLd = {
@@ -66,6 +66,7 @@ const jsonLd = {
   ],
 };
 function HomePage() {
+  const navigate = useNavigate();
   return (
     /* @__PURE__ */ <>
       <Helmet>
@@ -241,7 +242,7 @@ function HomePage() {
                 {home.products.subheading}
               </motion.p>
             </motion.div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
               <motion.div
                 initial={{
                   opacity: 0,
@@ -261,7 +262,8 @@ function HomePage() {
                 whileHover={{
                   scale: 1.015,
                 }}
-                className="lg:col-span-2 relative rounded-xl overflow-hidden bg-card border border-border/30 group cursor-pointer min-h-[340px]"
+                onClick={() => navigate("/products?variant=wall-charger-3-3kw")}
+                className="relative rounded-xl overflow-hidden bg-card border border-border/30 group cursor-pointer min-h-[455px]"
               >
                 <img
                   src={productImageSlots[0]}
@@ -275,37 +277,38 @@ function HomePage() {
                   className="absolute inset-0 pointer-events-none"
                   style={{
                     background:
-                      "linear-gradient(to top, hsl(var(--bento-cream) / 0.92) 0%, hsl(var(--bento-cream) / 0.60) 45%, transparent 100%)",
+                      "linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.38) 58%, transparent 100%)",
                   }}
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-7">
-                  <span className="inline-block text-black/70 text-xs font-semibold tracking-widest uppercase mb-2">
+                  <span className="inline-block text-white/80 text-xs font-semibold tracking-widest uppercase mb-2">
                     {home.products.items[0].category}
                   </span>
-                  <h3 className="text-black text-2xl font-bold mb-2">
+                  <h3 className="text-white text-2xl font-bold mb-2">
                     {home.products.items[0].title}
                   </h3>
-                  <p className="text-black/75 text-sm leading-relaxed mb-4 max-w-md">
+                  <p className="text-white/85 text-sm leading-relaxed mb-4 max-w-md">
                     {home.products.items[0].description}
                   </p>
                   <div className="flex gap-6">
                     <div>
-                      <div className="text-black/50 text-xs uppercase tracking-wider mb-0.5">
+                      <div className="text-white/70 text-xs uppercase tracking-wider mb-0.5">
                         {home.products.items[0].spec1Label}
                       </div>
-                      <div className="text-black font-semibold text-sm">
+                      <div className="text-white font-semibold text-sm">
                         {home.products.items[0].spec1Value}
                       </div>
                     </div>
                     <div>
-                      <div className="text-black/50 text-xs uppercase tracking-wider mb-0.5">
+                      <div className="text-white/70 text-xs uppercase tracking-wider mb-0.5">
                         {home.products.items[0].spec2Label}
                       </div>
-                      <div className="text-black font-semibold text-sm">
+                      <div className="text-white font-semibold text-sm">
                         {home.products.items[0].spec2Value}
                       </div>
                     </div>
                   </div>
+                  <Link to="/products" onClick={(event) => event.stopPropagation()} className="mt-6 inline-flex items-center gap-2 font-semibold text-primary hover:gap-3 transition-all">Explore charger <ArrowRight size={16} /></Link>
                 </div>
               </motion.div>
               <motion.div
@@ -328,7 +331,8 @@ function HomePage() {
                 whileHover={{
                   scale: 1.015,
                 }}
-                className="relative rounded-xl overflow-hidden bg-card border border-border/30 group cursor-pointer min-h-[340px] lg:mr-10"
+                onClick={() => navigate("/products?variant=dc-fast-charger-30kw")}
+                className="relative rounded-xl overflow-hidden bg-card border border-border/30 group cursor-pointer min-h-[455px]"
               >
                 <img
                   src={productImageSlots[1]}
@@ -342,37 +346,38 @@ function HomePage() {
                   className="absolute inset-0 pointer-events-none"
                   style={{
                     background:
-                      "linear-gradient(to top, hsl(var(--bento-cream) / 0.92) 0%, hsl(var(--bento-cream) / 0.60) 45%, transparent 100%)",
+                      "linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.38) 58%, transparent 100%)",
                   }}
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <span className="inline-block text-black/70 text-xs font-semibold tracking-widest uppercase mb-2">
+                  <span className="inline-block text-white/80 text-xs font-semibold tracking-widest uppercase mb-2">
                     {home.products.items[1].category}
                   </span>
-                  <h3 className="text-black text-xl font-bold mb-2">
+                  <h3 className="text-white text-xl font-bold mb-2">
                     {home.products.items[1].title}
                   </h3>
-                  <p className="text-black/75 text-xs leading-relaxed mb-3">
+                  <p className="text-white/85 text-xs leading-relaxed mb-3">
                     {home.products.items[1].description}
                   </p>
                   <div className="flex gap-5">
                     <div>
-                      <div className="text-black/50 text-xs uppercase tracking-wider mb-0.5">
+                      <div className="text-white/70 text-xs uppercase tracking-wider mb-0.5">
                         {home.products.items[1].spec1Label}
                       </div>
-                      <div className="text-black font-semibold text-xs">
+                      <div className="text-white font-semibold text-xs">
                         {home.products.items[1].spec1Value}
                       </div>
                     </div>
                     <div>
-                      <div className="text-black/50 text-xs uppercase tracking-wider mb-0.5">
+                      <div className="text-white/70 text-xs uppercase tracking-wider mb-0.5">
                         {home.products.items[1].spec2Label}
                       </div>
-                      <div className="text-black font-semibold text-xs">
+                      <div className="text-white font-semibold text-xs">
                         {home.products.items[1].spec2Value}
                       </div>
                     </div>
                   </div>
+                  <Link to="/products" onClick={(event) => event.stopPropagation()} className="mt-6 inline-flex items-center gap-2 font-semibold text-primary hover:gap-3 transition-all">Explore charger <ArrowRight size={16} /></Link>
                 </div>
               </motion.div>
               <motion.div
@@ -395,7 +400,8 @@ function HomePage() {
                 whileHover={{
                   scale: 1.015,
                 }}
-                className="relative rounded-xl overflow-hidden bg-card border border-border/30 group cursor-pointer min-h-[300px] lg:mr-10"
+                onClick={() => navigate("/products?variant=portable-charger")}
+                className="relative rounded-xl overflow-hidden bg-card border border-border/30 group cursor-pointer min-h-[455px]"
               >
                 <img
                   src={productImageSlots[2]}
@@ -409,17 +415,17 @@ function HomePage() {
                   className="absolute inset-0 pointer-events-none"
                   style={{
                     background:
-                      "linear-gradient(to top, hsl(var(--bento-cream) / 0.92) 0%, hsl(var(--bento-cream) / 0.60) 45%, transparent 100%)",
+                      "linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.38) 58%, transparent 100%)",
                   }}
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <span className="inline-block text-black/70 text-xs font-semibold tracking-widest uppercase mb-2">
+                  <span className="inline-block text-white/80 text-xs font-semibold tracking-widest uppercase mb-2">
                     {home.products.items[2].category}
                   </span>
-                  <h3 className="text-black text-xl font-bold mb-2">
+                  <h3 className="text-white text-xl font-bold mb-2">
                     {home.products.items[2].title}
                   </h3>
-                  <p className="text-black/75 text-xs leading-relaxed mb-3">
+                  <p className="text-white/85 text-xs leading-relaxed mb-3">
                     {home.products.items[2].description}
                   </p>
                   <div className="flex gap-5">
@@ -440,6 +446,7 @@ function HomePage() {
                       </div>
                     </div>
                   </div>
+                  <Link to="/products?variant=portable-charger" onClick={(event) => event.stopPropagation()} className="mt-6 inline-flex items-center gap-2 font-semibold text-primary hover:gap-3 transition-all">Explore charger <ArrowRight size={16} /></Link>
                 </div>
               </motion.div>
               <motion.div
@@ -462,7 +469,7 @@ function HomePage() {
                 whileHover={{
                   scale: 1.015,
                 }}
-                className="lg:col-span-2 relative rounded-xl overflow-hidden bg-card border border-border/30 group cursor-pointer min-h-[300px] lg:mr-10"
+                className="hidden"
               >
                 <img
                   src={productImageSlots[3]}

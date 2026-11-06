@@ -74,9 +74,9 @@ function Footer() {
           <div className="lg:col-span-1 flex flex-col">
             <Link to="/" className="inline-block mb-6 self-start">
               <img
-                src="/images/df.png"
+                src="/images/evdesirefit-logo-transparent.png"
                 alt="DESIREFIT"
-                className="block h-24 w-24 object-cover rounded-full"
+                className="block h-24 w-80 object-contain"
                 style={{
                   boxShadow: "none",
                 }}

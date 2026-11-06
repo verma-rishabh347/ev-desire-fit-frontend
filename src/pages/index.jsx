@@ -113,8 +113,6 @@ function HomePage() {
               width={1920}
               height={1080}
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-background/65 via-background/30 to-transparent pointer-events-none" />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/20 via-transparent to-transparent pointer-events-none" />
           </div>
           <div
             className="absolute left-0 top-0 bottom-0 w-1 bg-primary"
@@ -137,14 +135,14 @@ function HomePage() {
               </motion.div>
               <motion.h1
                 variants={fadeUp}
-                className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-foreground mb-6"
+                className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-white mb-6"
               >
                 {home.hero.headline}{" "}
                 <span className="text-primary">{home.hero.headlineAccent}</span>
               </motion.h1>
               <motion.p
                 variants={fadeUp}
-                className="text-foreground/60 text-lg leading-relaxed mb-10 max-w-xl"
+                className="text-white/80 text-lg leading-relaxed mb-10 max-w-xl"
               >
                 {home.hero.subheading}
               </motion.p>
@@ -157,14 +155,14 @@ function HomePage() {
                     animation: "pulse-glow 2.5s ease-in-out infinite",
                   }}
                 >
-                  {home.hero.ctaPrimary}
+                  {home.hero.ctaSecondary}
                   <ArrowRight size={15} />
                 </Link>
                 <Link
-                  to="/contact"
-                  className="inline-flex items-center gap-2 px-7 py-3.5 border border-foreground/20 text-foreground/80 hover:text-foreground hover:border-primary/50 font-semibold rounded text-sm transition-all duration-200"
+                  to="/solutions"
+                  className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/60 text-white hover:text-primary hover:border-primary font-semibold rounded text-sm transition-all duration-200"
                 >
-                  {home.hero.ctaSecondary}
+                  {home.hero.ctaPrimary }
                 </Link>
               </motion.div>
             </motion.div>

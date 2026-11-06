@@ -39,7 +39,7 @@ function Header() {
         <div className="flex items-center h-16 md:h-20">
           <Link to="/" className="flex items-center shrink-0 min-w-0">
             <img
-              src="/images/desirefit.png"
+              src="/images/evdesirefit-logo-transparent.png"
               alt="DESIREFIT"
               className="block h-auto max-h-10 md:max-h-12 w-auto max-w-[220px] object-contain"
             />

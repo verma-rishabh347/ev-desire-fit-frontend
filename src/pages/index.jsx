@@ -176,8 +176,8 @@ function HomePage() {
           className="relative bg-card border-y border-border/30 overflow-hidden"
           aria-label="Key statistics"
         >
-          <div className="w-full py-12 pl-28 pr-28">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-10 sm:gap-16">
+          <div className="w-full py-12  pr-40">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-10 sm:gap-8">
               {home.stats.map((stat, i) => (
                 /* @__PURE__ */ <motion.div
                   initial={{

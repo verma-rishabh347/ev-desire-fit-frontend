@@ -19,7 +19,9 @@ const dcGalleryImages = [
 ];
 function ProductsPage() {
   const location = useLocation();
-  const requestedVariant = new URLSearchParams(location.search).get("variant");
+  const requestedVariant = new globalThis.URLSearchParams(location.search).get(
+    "variant",
+  );
   const requestedCategory = products.categories.find(
     (category) => category.slug === requestedVariant,
   );

@@ -13,9 +13,9 @@
     --card-foreground: 0 0% 0%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 4%;
-    --primary: 207 100% 58%;
+    --primary: 142 55% 42%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 237 100% 58%;
+    --secondary: 142 45% 48%;
     --secondary-foreground: 0 0% 100%;
     --muted: 0 0% 97%;
     --muted-foreground: 0 0% 0%;
@@ -27,11 +27,11 @@
     --success-foreground: 0 0% 100%;
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 100%;
-    --info: 217 91% 60%;
+    --info: 142 55% 42%;
     --info-foreground: 0 0% 100%;
     --border: 0 0% 73%;
     --input: 0 0% 73%;
-    --ring: 207 100% 58%;
+    --ring: 142 55% 42%;
   --whatsapp: 142 70% 45%;
 
   /* Footer light grey theme */
@@ -46,21 +46,21 @@
   --footer-primary: 0 0% 50%;
 
     /* Extended Colors */
-    --chart-1: 207 100% 88%;
-    --chart-2: 207 100% 74%;
-    --chart-3: 207 100% 58%;
-    --chart-4: 207 100% 44%;
-    --chart-5: 207 100% 28%;
+    --chart-1: 142 55% 82%;
+    --chart-2: 142 55% 68%;
+    --chart-3: 142 55% 52%;
+    --chart-4: 142 55% 42%;
+    --chart-5: 142 55% 32%;
 
     /* Sidebar Colors */
     --sidebar: 0 0% 94%;
     --sidebar-foreground: 0 0% 4%;
-    --sidebar-primary: 207 100% 58%;
+    --sidebar-primary: 142 55% 42%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 27 100% 58%;
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 0 0% 73%;
-    --sidebar-ring: 207 100% 58%;
+    --sidebar-ring: 142 55% 42%;
 
     /* Typography */
     --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;

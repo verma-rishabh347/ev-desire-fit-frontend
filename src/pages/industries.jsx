@@ -44,8 +44,8 @@ function IndustriesPage() {
   return (
     /* @__PURE__ */ <>
       <Helmet>
-        <title>{industries.meta.title}</title>
-        <meta name="description" content={industries.meta.description} />
+        <title>Industries — DESIREFIT</title>
+        <meta name="description" content="DESIREFIT delivers EV charging solutions for fleet operators, commercial real estate, parking facilities, and retail & hospitality sectors." />
         <link rel="canonical" href={`${siteUrl}/industries`} />
         <meta property="og:title" content={industries.meta.title} />
         <meta property="og:description" content={industries.meta.description} />
@@ -87,19 +87,19 @@ function IndustriesPage() {
                 className="inline-flex items-center gap-2 text-primary text-xs font-semibold tracking-widest uppercase mb-4"
               >
                 <Zap size={12} />
-                {industries.hero.eyebrow}
+                Industries We Serve
               </motion.span>
               <motion.h1
                 variants={fadeUp}
                 className="text-5xl md:text-6xl font-bold text-foreground leading-tight mb-5"
               >
-                {industries.hero.headline}
+                Charging Solutions Built for Your Sector
               </motion.h1>
               <motion.p
                 variants={fadeUp}
                 className="text-foreground/60 text-lg leading-relaxed"
               >
-                {industries.hero.subheading}
+                Every industry has unique charging demands. DESIREFIT engineers infrastructure that fits your operational model — not the other way around.
               </motion.p>
             </motion.div>
           </div>

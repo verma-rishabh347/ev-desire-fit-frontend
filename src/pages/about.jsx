@@ -44,8 +44,8 @@ function AboutPage() {
   return (
     /* @__PURE__ */ <>
       <Helmet>
-        <title>{about.meta.title}</title>
-        <meta name="description" content={about.meta.description} />
+        <title>About DESIREFIT — Commercial EV Charging Specialists</title>
+        <meta name="description" content="DESIREFIT is a specialist EV charging infrastructure company delivering precision-engineered solutions for commercial fleets, property developers, and businesses." />
         <link rel="canonical" href={`${siteUrl}/about`} />
         <meta property="og:title" content={about.meta.title} />
         <meta property="og:description" content={about.meta.description} />
@@ -138,13 +138,13 @@ function AboutPage() {
                   variants={fadeUp}
                   className="block text-primary text-xs font-semibold tracking-widest uppercase mb-4"
                 >
-                  {about.mission.eyebrow}
+                  Our Mission
                 </motion.span>
                 <motion.h2
                   variants={fadeUp}
                   className="text-4xl md:text-5xl font-bold text-foreground leading-tight mb-6"
                 >
-                  {about.mission.headline}
+                  Power the Future. Built to Last.
                 </motion.h2>
                 <div className="w-10 h-1 bg-primary" />
               </motion.div>
@@ -206,20 +206,20 @@ function AboutPage() {
                   variants={fadeUp}
                   className="block text-primary text-xs font-semibold tracking-widest uppercase mb-4"
                 >
-                  {about.story.eyebrow}
+                  Our Story
                 </motion.span>
                 <motion.h2
                   variants={fadeUp}
                   className="text-4xl md:text-5xl font-bold text-foreground leading-tight mb-6"
                 >
-                  {about.story.headline}
+                  It started with a problem no one was solving.
                 </motion.h2>
                 <motion.div
                   variants={fadeUp}
                   className="border-l-4 border-primary pl-5 mt-8"
                 >
                   <p className="text-primary font-semibold text-lg leading-snug italic">
-                    "{about.story.question}"
+                    "Why is charging a commercial fleet harder than it should be?"
                   </p>
                 </motion.div>
               </motion.div>
@@ -383,10 +383,10 @@ function AboutPage() {
               <div>
                 <div className="w-10 h-1 bg-primary mb-6" />
                 <h2 className="text-4xl font-bold text-foreground mb-4">
-                  {about.cta.headline}
+                  Ready to Work With Us?
                 </h2>
                 <p className="text-foreground/50 text-base leading-relaxed">
-                  {about.cta.subheading}
+                  Contact our team to discuss your EV charging requirements. We'll provide a free site assessment and infrastructure proposal.
                 </p>
               </div>
               <div className="flex flex-col gap-4 lg:items-end">
@@ -398,7 +398,7 @@ function AboutPage() {
                   }}
                 >
                   <Zap size={16} />
-                  {about.cta.ctaLabel}
+                  Contact DESIREFIT
                 </a>
                 <a
                   href={`mailto:${about.cta.email}`}

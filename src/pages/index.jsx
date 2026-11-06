@@ -131,21 +131,21 @@ function HomePage() {
               <motion.div variants={fadeUp} className="mb-5">
                 <span className="inline-flex items-center gap-2 text-primary text-xs font-semibold tracking-widest uppercase">
                   <Zap size={12} />
-                  {home.hero.eyebrow}
+                  EV Charging Solutions
                 </span>
               </motion.div>
               <motion.h1
                 variants={fadeUp}
                 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-white mb-6"
               >
-                {home.hero.headline}{" "}
-                <span className="text-primary">{home.hero.headlineAccent}</span>
+                Power the Future of{" "}
+                <span className="text-primary">Electric Mobility</span>
               </motion.h1>
               <motion.p
                 variants={fadeUp}
                 className="text-white/80 text-lg leading-relaxed mb-10 max-w-xl"
               >
-                {home.hero.subheading}
+                DESIREFIT delivers intelligent EV charging infrastructure for commercial, fleet, and residential applications — built for reliability, scalability, and smart energy management.
               </motion.p>
               <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
                 <Link
@@ -156,14 +156,14 @@ function HomePage() {
                     animation: "pulse-glow 2.5s ease-in-out infinite",
                   }}
                 >
-                  {home.hero.ctaSecondary}
+                  View Products
                   <ArrowRight size={15} />
                 </Link>
                 <Link
                   to="/solutions"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/60 text-white hover:text-primary hover:border-primary font-semibold rounded text-sm transition-all duration-200"
                 >
-                  {home.hero.ctaPrimary }
+                  Explore Solutions
                 </Link>
               </motion.div>
             </motion.div>
@@ -227,19 +227,19 @@ function HomePage() {
                 variants={fadeUp}
                 className="block text-primary text-xs font-semibold tracking-widest uppercase mb-3"
               >
-                {home.products.eyebrow}
+                Products & Solutions
               </motion.span>
               <motion.h2
                 variants={fadeUp}
                 className="text-4xl md:text-5xl font-bold text-foreground mb-4 max-w-xl"
               >
-                {home.products.headline}
+                Charging Solutions for Every Need
               </motion.h2>
               <motion.p
                 variants={fadeUp}
                 className="text-foreground/50 text-base leading-relaxed max-w-2xl"
               >
-                {home.products.subheading}
+                From residential Level 2 chargers to high-power DC fast chargers and intelligent fleet management platforms — DESIREFIT has you covered.
               </motion.p>
             </motion.div>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
@@ -538,19 +538,19 @@ function HomePage() {
                   variants={fadeUp}
                   className="block text-primary text-xs font-semibold tracking-widest uppercase mb-4"
                 >
-                  {home.why.eyebrow}
+                  Why DESIREFIT
                 </motion.span>
                 <motion.h2
                   variants={fadeUp}
                   className="text-4xl md:text-5xl font-bold text-foreground leading-tight mb-6"
                 >
-                  {home.why.headline}
+                  Built for Performance, Designed for Scale
                 </motion.h2>
                 <motion.p
                   variants={fadeUp}
                   className="text-foreground/50 text-base leading-relaxed mb-8"
                 >
-                  {home.why.subheading}
+                  We combine hardware excellence with intelligent software to deliver EV charging solutions that grow with your business.
                 </motion.p>
                 <motion.div variants={fadeUp}>
                   <Link
@@ -619,13 +619,13 @@ function HomePage() {
                 variants={fadeUp}
                 className="block text-primary text-xs font-semibold tracking-widest uppercase mb-3"
               >
-                {home.industries.eyebrow}
+                  Industries We Serve
               </motion.span>
               <motion.h2
                 variants={fadeUp}
                 className="text-4xl md:text-5xl font-bold text-foreground max-w-xl"
               >
-                {home.industries.headline}
+                  Tailored for Every Sector
               </motion.h2>
             </motion.div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -681,20 +681,20 @@ function HomePage() {
                 <motion.div variants={fadeUp} className="mb-2">
                   <div className="w-12 h-1 bg-primary mb-6" />
                   <span className="text-primary text-xs font-semibold tracking-widest uppercase">
-                    {home.cta.eyebrow}
+                    Get Started
                   </span>
                 </motion.div>
                 <motion.h2
                   variants={fadeUp}
                   className="text-4xl md:text-5xl font-bold text-foreground leading-tight mt-3 mb-6"
                 >
-                  {home.cta.headline}
+                  Ready to Electrify Your Space?
                 </motion.h2>
                 <motion.p
                   variants={fadeUp}
                   className="text-foreground/50 text-base leading-relaxed"
                 >
-                  {home.cta.subheading}
+                  Talk to our experts and get a customised EV charging solution for your site.
                 </motion.p>
               </motion.div>
               <motion.div
@@ -723,7 +723,7 @@ function HomePage() {
                   }}
                 >
                   <Zap size={18} />
-                  <span>{home.cta.ctaLabel}</span>
+                  <span>Contact Us Today</span>
                   <ArrowRight size={16} />
                 </Link>
                 <p className="text-foreground/30 text-xs">

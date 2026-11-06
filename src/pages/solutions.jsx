@@ -43,8 +43,8 @@ function SolutionsPage() {
   return (
     /* @__PURE__ */ <>
       <Helmet>
-        <title>{solutions.meta.title}</title>
-        <meta name="description" content={solutions.meta.description} />
+        <title>Solutions — DESIREFIT EV Charging Infrastructure</title>
+        <meta name="description" content="DESIREFIT delivers end-to-end EV charging solutions — from site assessment and hardware supply to installation, software integration, and ongoing support." />
         <link rel="canonical" href={`${siteUrl}/solutions`} />
         <meta property="og:title" content={solutions.meta.title} />
         <meta property="og:description" content={solutions.meta.description} />
@@ -86,19 +86,19 @@ function SolutionsPage() {
                 className="inline-flex items-center gap-2 text-primary text-xs font-semibold tracking-widest uppercase mb-4"
               >
                 <Zap size={12} />
-                {solutions.hero.eyebrow}
+                Our Solutions
               </motion.span>
               <motion.h1
                 variants={fadeUp}
                 className="text-5xl md:text-6xl font-bold text-foreground leading-tight mb-5"
               >
-                {solutions.hero.headline}
+                End-to-End EV Charging Infrastructure
               </motion.h1>
               <motion.p
                 variants={fadeUp}
                 className="text-foreground/60 text-lg leading-relaxed"
               >
-                {solutions.hero.subheading}
+                From initial site assessment through to commissioning and long-term support, DESIREFIT delivers complete charging infrastructure — engineered for commercial scale.
               </motion.p>
             </motion.div>
           </div>
@@ -169,11 +169,11 @@ function SolutionsPage() {
           <div className="w-full pl-28 pr-28">
             <div className="mb-14">
               <span className="block text-primary text-xs font-semibold tracking-widest uppercase mb-3">
-                {solutions.process.eyebrow}
+                How It Works
               </span>
               <ScrollReveal>
                 <h2 className="text-4xl font-bold text-foreground">
-                  {solutions.process.headline}
+                  From Inquiry to Live Network
                 </h2>
               </ScrollReveal>
             </div>

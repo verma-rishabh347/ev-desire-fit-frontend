@@ -125,8 +125,8 @@ function ContactPage() {
   return (
     /* @__PURE__ */ <>
       <Helmet>
-        <title>{contact.meta.title}</title>
-        <meta name="description" content={contact.meta.description} />
+        <title>Contact DESIREFIT — Get in Touch</title>
+        <meta name="description" content="Contact DESIREFIT for commercial EV charging inquiries, site assessments, and fleet charging solutions. Email us at info@evdesirefit.com." />
         <link rel="canonical" href={`${siteUrl}/contact`} />
         <meta property="og:title" content={contact.meta.title} />
         <meta property="og:description" content={contact.meta.description} />
@@ -168,19 +168,19 @@ function ContactPage() {
                 className="inline-flex items-center gap-2 text-primary text-xs font-semibold tracking-widest uppercase mb-4"
               >
                 <Zap size={12} />
-                {contact.hero.eyebrow}
+                Get in Touch
               </motion.span>
               <motion.h1
                 variants={fadeUp}
                 className="text-5xl md:text-6xl font-bold text-foreground leading-tight mb-5"
               >
-                {contact.hero.headline}
+                Let's Build Your Charging Infrastructure
               </motion.h1>
               <motion.p
                 variants={fadeUp}
                 className="text-foreground/60 text-lg leading-relaxed"
               >
-                {contact.hero.subheading}
+                Tell us about your project. Our team will respond within one business day with a tailored assessment and proposal.
               </motion.p>
             </motion.div>
           </div>

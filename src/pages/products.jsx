@@ -83,8 +83,8 @@ function ProductsPage() {
   return (
     /* @__PURE__ */ <>
       <Helmet>
-        <title>{products.meta.title}</title>
-        <meta name="description" content={products.meta.description} />
+        <title>Products — DESIREFIT</title>
+        <meta name="description" content="Explore DESIREFIT's Wall Charger and Portable EV Charger — engineered for home, workplace, commercial, and on-the-go EV charging." />
         <link rel="canonical" href={`${siteUrl}/products`} />
         <meta property="og:title" content={products.meta.title} />
         <meta property="og:description" content={products.meta.description} />
@@ -131,13 +131,13 @@ function ProductsPage() {
             >
               <span className="inline-flex items-center gap-2 text-primary text-xs font-semibold tracking-widest uppercase mb-4">
                 <Zap size={12} />
-                {products.hero.eyebrow}
+                Products
               </span>
               <h1 className="mt-0 text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-[1.05] tracking-tight mb-5">
-                {products.hero.headline}
+                Precision-Engineered Charging Infrastructure
               </h1>
               <p className="text-foreground/60 text-lg leading-relaxed">
-                {products.hero.subheading}
+                DESIREFIT chargers are built for reliable, continuous operation — from fixed wall units to portable on-the-go solutions.
               </p>
             </motion.div>
           </div>
@@ -426,10 +426,10 @@ function ProductsPage() {
         >
           <div className="mx-auto w-full max-w-3xl px-6 sm:px-10 text-center">
             <h2 className="mt-0 text-3xl sm:text-4xl font-bold text-foreground mb-4 tracking-tight">
-              {products.cta.headline}
+              Need a Custom Solution?
             </h2>
             <p className="text-foreground/60 text-base mb-8 max-w-xl mx-auto">
-              {products.cta.subheading}
+              Our engineering team will design a charging infrastructure tailored to your site, fleet size, and operational requirements.
             </p>
             <Link
               to="/contact"
@@ -438,7 +438,7 @@ function ProductsPage() {
                 background: "hsl(var(--primary))",
               }}
             >
-              {products.cta.ctaLabel}
+              Talk to an Expert
               <ChevronRight size={14} />
             </Link>
           </div>

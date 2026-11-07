@@ -1,5 +1,6 @@
 import { Helmet } from "@dr.pogodin/react-helmet";
 import { motion } from "motion/react";
+import { Link } from "react-router";
 import ScrollReveal from "@/components/ScrollReveal";
 import { Shield, Award, CheckCircle, Zap } from "lucide-react";
 import { about } from "virtual:content";
@@ -390,8 +391,8 @@ function AboutPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-4 lg:items-end">
-                <a
-                  href={`mailto:${about.cta.email}`}
+                <Link
+                  to="/contact"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-bold text-base rounded hover:bg-primary/90 transition-colors"
                   style={{
                     boxShadow: "0 0 28px hsl(var(--primary) / 0.3)",
@@ -399,7 +400,7 @@ function AboutPage() {
                 >
                   <Zap size={16} />
                   Contact DESIREFIT
-                </a>
+                </Link>
                 <a
                   href={`mailto:${about.cta.email}`}
                   className="text-foreground/40 text-sm hover:text-primary transition-colors"

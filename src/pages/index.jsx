@@ -172,43 +172,7 @@ function HomePage() {
             <div className="w-px h-12 bg-gradient-to-b from-transparent to-primary" />
           </div>
         </section>
-        <section
-          className="relative bg-card border-y border-border/30 overflow-hidden"
-          aria-label="Key statistics"
-        >
-          <div className="w-full py-12  pr-40">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-10 sm:gap-8">
-              {home.stats.map((stat, i) => (
-                /* @__PURE__ */ <motion.div
-                  initial={{
-                    opacity: 0,
-                    y: 20,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  viewport={{
-                    once: true,
-                  }}
-                  transition={{
-                    duration: 0.5,
-                    delay: i * 0.08,
-                    ease: "easeOut",
-                  }}
-                  className="inline-flex flex-col ml-56 items-start shrink-0"
-                >
-                  <div className="text-3xl md:text-4xl font-bold text-primary mb-1 leading-none whitespace-nowrap">
-                    {stat.value}
-                  </div>
-                  <div className="text-foreground/50 text-sm font-medium tracking-wide mt-1 whitespace-nowrap">
-                    {stat.label}
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+       
         <section
           className="py-10 bg-background"
           aria-label="Products and solutions"

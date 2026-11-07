@@ -162,7 +162,7 @@ function AboutPage() {
                   className="w-full h-56 rounded-2xl overflow-hidden mb-2"
                 >
                   <img
-                    src="/airo-assets/images/pages/about/mission"
+                    src="/images/aboutusmission.png"
                     alt="DESIREFIT team collaborating on EV charging solutions"
                     className="w-full h-full object-cover"
                     loading="lazy"
@@ -237,7 +237,7 @@ function AboutPage() {
                   className="w-full h-64 rounded-2xl overflow-hidden"
                 >
                   <img
-                    src="/airo-assets/images/pages/about/story"
+                    src="/images/aboutusstory.png"
                     alt="DESIREFIT fleet depot EV charging facility"
                     className="w-full h-full object-cover"
                     loading="lazy"
